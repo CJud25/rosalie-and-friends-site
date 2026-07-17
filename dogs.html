@@ -18,7 +18,7 @@
     <div class="container">
       <nav class="navbar__inner">
         <a href="/" class="navbar__logo">
-          <img src="/images/mascot.jpg" onerror="this.onerror=null;this.src='images/mascot-placeholder.svg';" alt="" class="navbar__logo-img" />
+          <img src="/images/mascot.jpg" onerror="this.onerror=null;this.src='/images/mascot-placeholder.svg';" alt="" class="navbar__logo-img" />
           <span>Rosalie &amp; Friends</span>
         </a>
         <ul class="navbar__links">
@@ -52,7 +52,7 @@
     <section class="page-hero">
       <div class="container">
         <h1>Meet the Dogs</h1>
-        <p>From bouncy fixer-upper pups to gentle fospice seniors &mdash; every dog here is vetted, vaccinated, spayed/neutered, and waiting for a soft place to land.</p>
+        <p>From bouncy fixer-upper pups to dignified seniors &mdash; every dog here is vetted and vaccinated, spay/neuter is part of every adoption, and each one is waiting for a soft place to land.</p>
       </div>
     </section>
 
@@ -69,8 +69,7 @@
               <button class="filter-pill" data-filter="adult" aria-pressed="false">Adult</button>
               <button class="filter-pill" data-filter="senior" aria-pressed="false">Senior</button>
               <button class="filter-pill" data-filter="small" aria-pressed="false">Small</button>
-              <button class="filter-pill" data-filter="large" aria-pressed="false">Large</button>
-              <button class="filter-pill" data-filter="fospice" aria-pressed="false">Fospice</button>
+              <button class="filter-pill" data-filter="medium" aria-pressed="false">Medium</button>
             </div>
           </div>
           <div class="sort-group">
@@ -87,108 +86,172 @@
         <p class="dog-count" id="dog-count" aria-live="polite"></p>
 
         <div class="dog-grid adopt-grid">
-          <article class="dog-card" data-tags="young large" data-name="Biscuit" data-age="24">
-            <img src="https://placedog.net/600/450?id=1" alt="Biscuit, 2-year-old Golden Retriever mix" class="dog-card__img" />
+          <article class="dog-card" data-tags="adult medium" data-name="Esther" data-age="96">
+            <img src="/images/dogs/esther-1.jpg" alt="Esther, 8-year-old Boxer and Bully mix" class="dog-card__img" loading="lazy" />
             <div class="dog-card__body">
               <div class="dog-card__meta">
-                <span class="dog-card__tag">2 Years</span>
-                <span class="dog-card__tag">Golden Mix</span>
-                <span class="dog-card__tag">Large</span>
+                <span class="dog-card__tag">8 Years</span>
+                <span class="dog-card__tag">Boxer &amp; Bully Mix</span>
+                <span class="dog-card__tag dog-card__tag--fospice">Fee Sponsored</span>
               </div>
-              <h3 class="dog-card__name">Biscuit</h3>
-              <p class="dog-card__desc">Gentle and playful. Great with kids and other dogs. Loves walks and belly rubs.</p>
-              <a href="/contact" class="btn btn-terracotta" style="margin-top: var(--space-2); font-size: 0.9375rem;">Inquire About Biscuit</a>
+              <h3 class="dog-card__name">Esther</h3>
+              <p class="dog-card__desc">A gentle survivor. Essie came to the rescue near death from starvation and answered with pure spirit &mdash; peaceful, house-trained, 40 lbs of quiet love. Great with dogs and kids; no cats.</p>
+              <a href="https://form.jotform.com/223268341300041" target="_blank" rel="noopener" class="btn btn-terracotta" style="margin-top: var(--space-2); font-size: 0.9375rem;">Apply to Adopt Esther</a>
+              <a href="https://www.petfinder.com/dog/esther-0752916c-0354-4a71-bade-fcdf9a2d462d/fl/milton/rosalie-and-friends-fl1850/details/" target="_blank" rel="noopener" class="dog-card__link">Full profile on Petfinder &rarr;</a>
             </div>
           </article>
-          <article class="dog-card" data-tags="young large" data-name="Luna" data-age="12">
-            <img src="https://placedog.net/600/450?id=2" alt="Luna, 1-year-old Border Collie mix" class="dog-card__img" />
+          <article class="dog-card" data-tags="senior small" data-name="Toofers" data-age="120">
+            <img src="/images/dogs/toofers-1.jpg" alt="Toofers, 10-year-old Chihuahua and Pekingese mix" class="dog-card__img" loading="lazy" />
+            <div class="dog-card__body">
+              <div class="dog-card__meta">
+                <span class="dog-card__tag">~10 Years</span>
+                <span class="dog-card__tag">Chihuahua &amp; Pekingese</span>
+                <span class="dog-card__tag">Small</span>
+              </div>
+              <h3 class="dog-card__name">Toofers</h3>
+              <p class="dog-card__desc">Eight pounds of senior sass. Tootie narrates his day, burrows like a baked potato, and cruises in his stroller like a celebrity. Best as your one and only &mdash; no cats, no large dogs.</p>
+              <a href="https://form.jotform.com/223268341300041" target="_blank" rel="noopener" class="btn btn-terracotta" style="margin-top: var(--space-2); font-size: 0.9375rem;">Apply to Adopt Toofers</a>
+              <a href="https://www.petfinder.com/dog/toofers-0a3352ba-7403-4e28-bd4c-6f92d260688e/fl/milton/rosalie-and-friends-fl1850/details/" target="_blank" rel="noopener" class="dog-card__link">Full profile on Petfinder &rarr;</a>
+            </div>
+          </article>
+          <article class="dog-card" data-tags="young small" data-name="Penelope" data-age="30">
+            <img src="/images/dogs/penelope-1.jpg" alt="Penelope, 2.5-year-old Rat Terrier mix" class="dog-card__img" loading="lazy" />
+            <div class="dog-card__body">
+              <div class="dog-card__meta">
+                <span class="dog-card__tag">2.5 Years</span>
+                <span class="dog-card__tag">Rat Terrier Mix</span>
+                <span class="dog-card__tag">Small</span>
+              </div>
+              <h3 class="dog-card__name">Penelope</h3>
+              <p class="dog-card__desc">Rescued from severe hoarding, heartworm-positive and shut down &mdash; Penelope fought back to full health, treatment complete. A gentle 13-lb girl for a patient home. Good with dogs and cats; older kids best.</p>
+              <a href="https://form.jotform.com/223268341300041" target="_blank" rel="noopener" class="btn btn-terracotta" style="margin-top: var(--space-2); font-size: 0.9375rem;">Apply to Adopt Penelope</a>
+              <a href="https://www.petfinder.com/dog/penelope-8c53520c-4897-42e9-ba5b-69ce497c7ac7/fl/milton/rosalie-and-friends-fl1850/details/" target="_blank" rel="noopener" class="dog-card__link">Full profile on Petfinder &rarr;</a>
+            </div>
+          </article>
+          <article class="dog-card" data-tags="young medium" data-name="Ernie" data-age="12">
+            <img src="/images/dogs/ernie-2.jpg" alt="Ernie, 1-year-old American Bully" class="dog-card__img" loading="lazy" />
             <div class="dog-card__body">
               <div class="dog-card__meta">
                 <span class="dog-card__tag">1 Year</span>
-                <span class="dog-card__tag">Border Collie Mix</span>
+                <span class="dog-card__tag">American Bully</span>
+                <span class="dog-card__tag dog-card__tag--fospice">Fee Sponsored</span>
+              </div>
+              <h3 class="dog-card__name">Ernie</h3>
+              <p class="dog-card__desc">55 pounds of pure sweetness. Shy at first, devoted for life &mdash; kennel- and potty-trained, and happily trots to bed for his bedtime biscuit. Great with dogs, cats, and kids.</p>
+              <a href="https://form.jotform.com/223268341300041" target="_blank" rel="noopener" class="btn btn-terracotta" style="margin-top: var(--space-2); font-size: 0.9375rem;">Apply to Adopt Ernie</a>
+              <a href="https://www.petfinder.com/dog/ernie-1667bbfa-2396-4d25-abbd-e1583e6c9bae/fl/milton/rosalie-and-friends-fl1850/details/" target="_blank" rel="noopener" class="dog-card__link">Full profile on Petfinder &rarr;</a>
+            </div>
+          </article>
+          <article class="dog-card" data-tags="young medium" data-name="Liza" data-age="12">
+            <img src="/images/dogs/liza-1.jpg" alt="Liza, 1-year-old Catahoula mix" class="dog-card__img" loading="lazy" />
+            <div class="dog-card__body">
+              <div class="dog-card__meta">
+                <span class="dog-card__tag">1 Year</span>
+                <span class="dog-card__tag">Catahoula Mix</span>
+                <span class="dog-card__tag dog-card__tag--fospice">Fee Sponsored</span>
+              </div>
+              <h3 class="dog-card__name">Liza</h3>
+              <p class="dog-card__desc">The happiest heart in the rescue. Eliza manages a rare skin condition with simple regular meds &mdash; it doesn't slow her down one wiggle. House-trained; loves dogs, cats, long walks, and sunshine.</p>
+              <a href="https://form.jotform.com/223268341300041" target="_blank" rel="noopener" class="btn btn-terracotta" style="margin-top: var(--space-2); font-size: 0.9375rem;">Apply to Adopt Liza</a>
+              <a href="https://www.petfinder.com/dog/liza-adc586bb-c146-40ec-a266-4b3897fb6acd/fl/milton/rosalie-and-friends-fl1850/details/" target="_blank" rel="noopener" class="dog-card__link">Full profile on Petfinder &rarr;</a>
+            </div>
+          </article>
+          <article class="dog-card" data-tags="young medium" data-name="Storm" data-age="18">
+            <img src="/images/dogs/storm-1.jpg" alt="Storm, 1.5-year-old Shepherd and Lab mix" class="dog-card__img" loading="lazy" />
+            <div class="dog-card__body">
+              <div class="dog-card__meta">
+                <span class="dog-card__tag">1.5 Years</span>
+                <span class="dog-card__tag">Shepherd &amp; Lab Mix</span>
                 <span class="dog-card__tag">Medium</span>
               </div>
-              <h3 class="dog-card__name">Luna</h3>
-              <p class="dog-card__desc">High energy and incredibly smart. Best with active families or experienced dog owners.</p>
-              <a href="/contact" class="btn btn-terracotta" style="margin-top: var(--space-2); font-size: 0.9375rem;">Inquire About Luna</a>
+              <h3 class="dog-card__name">Storm</h3>
+              <p class="dog-card__desc">Shy-then-snuggly. Storm is house-trained (doggy-door pro) and blossoms beside confident dog friends &mdash; a fenced yard would be her dream. No cats or birds, please.</p>
+              <a href="https://form.jotform.com/223268341300041" target="_blank" rel="noopener" class="btn btn-terracotta" style="margin-top: var(--space-2); font-size: 0.9375rem;">Apply to Adopt Storm</a>
+              <a href="https://www.petfinder.com/dog/storm-4814e7db-8c88-43da-9a8b-f01f28c2932c/fl/milton/rosalie-and-friends-fl1850/details/" target="_blank" rel="noopener" class="dog-card__link">Full profile on Petfinder &rarr;</a>
             </div>
           </article>
-          <article class="dog-card" data-tags="adult large" data-name="Mango" data-age="48">
-            <img src="https://placedog.net/600/450?id=3" alt="Mango, 4-year-old Labrador mix" class="dog-card__img" />
+          <article class="dog-card" data-tags="puppy medium" data-name="Blue Bell" data-age="8">
+            <img src="/images/dogs/blue-bell-1.jpg" alt="Blue Bell, 8-month-old Retriever and Shar-Pei mix" class="dog-card__img" loading="lazy" />
             <div class="dog-card__body">
               <div class="dog-card__meta">
-                <span class="dog-card__tag">4 Years</span>
-                <span class="dog-card__tag">Lab Mix</span>
-                <span class="dog-card__tag">Large</span>
+                <span class="dog-card__tag">8 Months</span>
+                <span class="dog-card__tag">Retriever &amp; Shar-Pei</span>
+                <span class="dog-card__tag">Medium</span>
               </div>
-              <h3 class="dog-card__name">Mango</h3>
-              <p class="dog-card__desc">Calm, sweet, and loyal. Perfect for a quieter home. Loves couch cuddles and short walks.</p>
-              <a href="/contact" class="btn btn-terracotta" style="margin-top: var(--space-2); font-size: 0.9375rem;">Inquire About Mango</a>
+              <h3 class="dog-card__name">Blue Bell</h3>
+              <p class="dog-card__desc">A wavy blue-and-white bundle who greets you with a favorite toy and a little tap dance. 30 lbs, crate-trained, and wonderful with dogs, cats, and kids.</p>
+              <a href="https://form.jotform.com/223268341300041" target="_blank" rel="noopener" class="btn btn-terracotta" style="margin-top: var(--space-2); font-size: 0.9375rem;">Apply to Adopt Blue Bell</a>
+              <a href="https://www.petfinder.com/dog/blue-bell-df018e3b-0707-42df-a46b-03b6ce9675a6/fl/milton/rosalie-and-friends-fl1850/details/" target="_blank" rel="noopener" class="dog-card__link">Full profile on Petfinder &rarr;</a>
             </div>
           </article>
-          <article class="dog-card" data-tags="puppy small" data-name="Peanut" data-age="4">
-            <img src="https://placedog.net/600/450?id=4" alt="Peanut, 4-month-old Chihuahua mix" class="dog-card__img" />
+          <article class="dog-card" data-tags="puppy medium" data-name="Crumpet" data-age="9">
+            <img src="/images/dogs/crumpet-1.jpg" alt="Crumpet, 9-month-old mixed-breed puppy" class="dog-card__img" loading="lazy" />
             <div class="dog-card__body">
               <div class="dog-card__meta">
-                <span class="dog-card__tag">4 Months</span>
+                <span class="dog-card__tag">9 Months</span>
+                <span class="dog-card__tag">Mixed Breed</span>
+                <span class="dog-card__tag">Medium</span>
+              </div>
+              <h3 class="dog-card__name">Crumpet</h3>
+              <p class="dog-card__desc">From crusty to classy &mdash; 45 chunky pounds of snacks and snuggles. Still learning house manners; she'd love a fenced yard and a playful dog buddy. Apartment life isn't for her.</p>
+              <a href="https://form.jotform.com/223268341300041" target="_blank" rel="noopener" class="btn btn-terracotta" style="margin-top: var(--space-2); font-size: 0.9375rem;">Apply to Adopt Crumpet</a>
+              <a href="https://www.petfinder.com/dog/crumpet-784fb3f4-7d3d-4fec-801b-b0ca1ad44af0/fl/milton/rosalie-and-friends-fl1850/details/" target="_blank" rel="noopener" class="dog-card__link">Full profile on Petfinder &rarr;</a>
+            </div>
+          </article>
+          <article class="dog-card" data-tags="puppy medium" data-name="Portia" data-age="9">
+            <img src="/images/dogs/portia-1.jpg" alt="Portia, 9-month-old Bully mix" class="dog-card__img" loading="lazy" />
+            <div class="dog-card__body">
+              <div class="dog-card__meta">
+                <span class="dog-card__tag">9 Months</span>
+                <span class="dog-card__tag">Bully Mix</span>
+                <span class="dog-card__tag dog-card__tag--fospice">Fee Sponsored</span>
+              </div>
+              <h3 class="dog-card__name">Portia</h3>
+              <p class="dog-card__desc">She survived severe abuse and chose joy anyway &mdash; tiny athlete by day, blanket burrito by night. Crate- and leash-trained. Loves dogs; wants an active family with a fenced yard, older kids best.</p>
+              <a href="https://form.jotform.com/223268341300041" target="_blank" rel="noopener" class="btn btn-terracotta" style="margin-top: var(--space-2); font-size: 0.9375rem;">Apply to Adopt Portia</a>
+              <a href="https://www.petfinder.com/dog/portia-46c279d0-f2a3-4148-906c-aab771c4344e/fl/milton/rosalie-and-friends-fl1850/details/" target="_blank" rel="noopener" class="dog-card__link">Full profile on Petfinder &rarr;</a>
+            </div>
+          </article>
+          <article class="dog-card" data-tags="puppy medium" data-name="Noodles" data-age="6">
+            <img src="/images/dogs/noodles-1.jpg" alt="Noodles, Retriever and Terrier mix puppy" class="dog-card__img" loading="lazy" />
+            <div class="dog-card__body">
+              <div class="dog-card__meta">
+                <span class="dog-card__tag">Puppy</span>
+                <span class="dog-card__tag">Retriever &amp; Terrier</span>
+                <span class="dog-card__tag">Medium</span>
+              </div>
+              <h3 class="dog-card__name">Noodles</h3>
+              <p class="dog-card__desc">Reformed tiny tornado, now a debonair gentleman in training. Walks nicely on leash, thinks water play is life's greatest invention, and greets everyone tail-first.</p>
+              <a href="https://form.jotform.com/223268341300041" target="_blank" rel="noopener" class="btn btn-terracotta" style="margin-top: var(--space-2); font-size: 0.9375rem;">Apply to Adopt Noodles</a>
+              <a href="https://www.petfinder.com/dog/noodles-6c44b260-410c-4ef2-96c6-f55a5aab6a32/fl/milton/rosalie-and-friends-fl1850/details/" target="_blank" rel="noopener" class="dog-card__link">Full profile on Petfinder &rarr;</a>
+            </div>
+          </article>
+          <article class="dog-card" data-tags="puppy medium" data-name="Rukus" data-age="3">
+            <img src="/images/dogs/rukus-1.jpg" alt="Rukus, 3-month-old Lab and Shepherd mix puppy with brindle markings" class="dog-card__img" loading="lazy" />
+            <div class="dog-card__body">
+              <div class="dog-card__meta">
+                <span class="dog-card__tag">3 Months</span>
+                <span class="dog-card__tag">Lab &amp; Shepherd Mix</span>
+                <span class="dog-card__tag">Medium</span>
+              </div>
+              <h3 class="dog-card__name">Rukus</h3>
+              <p class="dog-card__desc">A 14-lb brindle bean learning sit, down, and tug-of-war (his specialty). Sleeps through the night like a big boy; house-training in progress. Great with dogs and kids.</p>
+              <a href="https://form.jotform.com/223268341300041" target="_blank" rel="noopener" class="btn btn-terracotta" style="margin-top: var(--space-2); font-size: 0.9375rem;">Apply to Adopt Rukus</a>
+              <a href="https://www.petfinder.com/dog/rukus-33919e74-04cd-4369-9d25-3b53f6d0020c/fl/milton/rosalie-and-friends-fl1850/details/" target="_blank" rel="noopener" class="dog-card__link">Full profile on Petfinder &rarr;</a>
+            </div>
+          </article>
+          <article class="dog-card" data-tags="puppy small" data-name="Hutch" data-age="4">
+            <img src="/images/dogs/hutch-1.jpg" alt="Hutch, Chihuahua mix puppy" class="dog-card__img" loading="lazy" />
+            <div class="dog-card__body">
+              <div class="dog-card__meta">
+                <span class="dog-card__tag">Puppy</span>
                 <span class="dog-card__tag">Chihuahua Mix</span>
                 <span class="dog-card__tag">Small</span>
               </div>
-              <h3 class="dog-card__name">Peanut</h3>
-              <p class="dog-card__desc">Tiny but mighty! Peanut is full of personality and looking for a patient, loving home.</p>
-              <a href="/contact" class="btn btn-terracotta" style="margin-top: var(--space-2); font-size: 0.9375rem;">Inquire About Peanut</a>
-            </div>
-          </article>
-          <article class="dog-card" data-tags="adult small" data-name="Coco" data-age="36">
-            <img src="https://placedog.net/600/450?id=5" alt="Coco, 3-year-old Dachshund mix" class="dog-card__img" />
-            <div class="dog-card__body">
-              <div class="dog-card__meta">
-                <span class="dog-card__tag">3 Years</span>
-                <span class="dog-card__tag">Dachshund Mix</span>
-                <span class="dog-card__tag">Small</span>
-              </div>
-              <h3 class="dog-card__name">Coco</h3>
-              <p class="dog-card__desc">House-trained and gentle. Coco does well in apartments and loves snuggling under blankets.</p>
-              <a href="/contact" class="btn btn-terracotta" style="margin-top: var(--space-2); font-size: 0.9375rem;">Inquire About Coco</a>
-            </div>
-          </article>
-          <article class="dog-card" data-tags="young large" data-name="Rex" data-age="24">
-            <img src="https://placedog.net/600/450?id=6" alt="Rex, 2-year-old German Shepherd mix" class="dog-card__img" />
-            <div class="dog-card__body">
-              <div class="dog-card__meta">
-                <span class="dog-card__tag">2 Years</span>
-                <span class="dog-card__tag">German Shepherd Mix</span>
-                <span class="dog-card__tag">Large</span>
-              </div>
-              <h3 class="dog-card__name">Rex</h3>
-              <p class="dog-card__desc">Loyal, protective, and smart. Rex needs an experienced owner and a home with a yard.</p>
-              <a href="/contact" class="btn btn-terracotta" style="margin-top: var(--space-2); font-size: 0.9375rem;">Inquire About Rex</a>
-            </div>
-          </article>
-          <article class="dog-card" data-tags="senior small fospice" data-name="Willow" data-age="132">
-            <img src="https://placedog.net/600/450?id=7" alt="Willow, 11-year-old Beagle mix in the fospice program" class="dog-card__img" />
-            <div class="dog-card__body">
-              <div class="dog-card__meta">
-                <span class="dog-card__tag">11 Years</span>
-                <span class="dog-card__tag">Beagle Mix</span>
-                <span class="dog-card__tag dog-card__tag--fospice">Fospice</span>
-              </div>
-              <h3 class="dog-card__name">Willow</h3>
-              <p class="dog-card__desc">A gentle senior girl seeking a forever foster home. We cover all her medical care &mdash; you provide the sunny window and soft lap.</p>
-              <a href="/contact" class="btn btn-terracotta" style="margin-top: var(--space-2); font-size: 0.9375rem;">Inquire About Willow</a>
-            </div>
-          </article>
-          <article class="dog-card" data-tags="senior large" data-name="Gus" data-age="108">
-            <img src="https://placedog.net/600/450?id=8" alt="Gus, 9-year-old Boxer mix" class="dog-card__img" />
-            <div class="dog-card__body">
-              <div class="dog-card__meta">
-                <span class="dog-card__tag">9 Years</span>
-                <span class="dog-card__tag">Boxer Mix</span>
-                <span class="dog-card__tag">Large</span>
-              </div>
-              <h3 class="dog-card__name">Gus</h3>
-              <p class="dog-card__desc">A dignified old soul who has already done his zoomies. Gus wants slow strolls, good snacks, and his own person.</p>
-              <a href="/contact" class="btn btn-terracotta" style="margin-top: var(--space-2); font-size: 0.9375rem;">Inquire About Gus</a>
+              <h3 class="dog-card__name">Hutch</h3>
+              <p class="dog-card__desc">A smart, people-first pup who'll grow to 20&ndash;25 lbs. Crate-trained with house-training underway; great with dogs, cats, and kids. Needs an active home &mdash; no apartment living.</p>
+              <a href="https://form.jotform.com/223268341300041" target="_blank" rel="noopener" class="btn btn-terracotta" style="margin-top: var(--space-2); font-size: 0.9375rem;">Apply to Adopt Hutch</a>
+              <a href="https://www.petfinder.com/dog/hutch-10506e60-514c-454d-a90c-30dfb9bc1795/fl/milton/rosalie-and-friends-fl1850/details/" target="_blank" rel="noopener" class="dog-card__link">Full profile on Petfinder &rarr;</a>
             </div>
           </article>
         </div>
@@ -196,6 +259,58 @@
         <div class="no-results" id="no-dogs" hidden>
           <h3>No dogs match that filter right now</h3>
           <p>Our roster changes weekly &mdash; try another filter, or <a href="/contact" style="color: var(--color-terracotta); font-weight: 600;">get in touch</a> and we'll let you know when the right dog arrives.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- HAPPY TAILS -->
+    <section class="section" id="happy-tails">
+      <div class="container">
+        <div class="section-header">
+          <h2>Happy Tails</h2>
+          <p>Recently adopted &mdash; proof that every dog's day comes.</p>
+        </div>
+        <div class="dog-grid">
+          <article class="dog-card">
+            <img src="/images/dogs/christopher-robin-1.jpg" alt="Christopher Robin, a young Lab, now adopted" class="dog-card__img" loading="lazy" />
+            <div class="dog-card__body">
+              <div class="dog-card__meta">
+                <span class="dog-card__tag dog-card__tag--fospice">Adopted</span>
+              </div>
+              <h3 class="dog-card__name">Christopher Robin</h3>
+              <p class="dog-card__desc">The adventure-ready young Lab found his people.</p>
+            </div>
+          </article>
+          <article class="dog-card">
+            <img src="/images/dogs/cashew-1.jpg" alt="Cashew, a one-eyed Chihuahua mix, now adopted" class="dog-card__img" loading="lazy" />
+            <div class="dog-card__body">
+              <div class="dog-card__meta">
+                <span class="dog-card__tag dog-card__tag--fospice">Adopted</span>
+              </div>
+              <h3 class="dog-card__name">Cashew</h3>
+              <p class="dog-card__desc">One eye, endless love &mdash; home at last.</p>
+            </div>
+          </article>
+          <article class="dog-card">
+            <img src="/images/dogs/wasabi-1.jpg" alt="Wasabi, a small black Chihuahua mix, now adopted" class="dog-card__img" loading="lazy" />
+            <div class="dog-card__body">
+              <div class="dog-card__meta">
+                <span class="dog-card__tag dog-card__tag--fospice">Adopted</span>
+              </div>
+              <h3 class="dog-card__name">Wasabi</h3>
+              <p class="dog-card__desc">Abandoned at Bayview Park &mdash; never lonely again.</p>
+            </div>
+          </article>
+          <article class="dog-card">
+            <img src="/images/dogs/snowbelle-1.jpg" alt="Snowbelle, a Chihuahua-Dachshund mix, now adopted" class="dog-card__img" loading="lazy" />
+            <div class="dog-card__body">
+              <div class="dog-card__meta">
+                <span class="dog-card__tag dog-card__tag--fospice">Adopted</span>
+              </div>
+              <h3 class="dog-card__name">Snowbelle</h3>
+              <p class="dog-card__desc">The velcro &ldquo;Chihuweenie&rdquo; got her forever couch.</p>
+            </div>
+          </article>
         </div>
       </div>
     </section>
