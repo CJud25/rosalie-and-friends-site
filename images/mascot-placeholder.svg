@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Paw print placeholder for the Rosalie and Friends mascot">
+  <circle cx="50" cy="50" r="50" fill="#C1603A"/>
+  <g fill="#FBF5EE">
+    <ellipse cx="36" cy="33" rx="8" ry="11" transform="rotate(-12 36 33)"/>
+    <ellipse cx="64" cy="33" rx="8" ry="11" transform="rotate(12 64 33)"/>
+    <ellipse cx="20" cy="49" rx="7" ry="9.5" transform="rotate(-28 20 49)"/>
+    <ellipse cx="80" cy="49" rx="7" ry="9.5" transform="rotate(28 80 49)"/>
+    <path d="M50 46c13 0 23 10 23 21 0 9-8 13-23 13s-23-4-23-13c0-11 10-21 23-21z"/>
+  </g>
+</svg>

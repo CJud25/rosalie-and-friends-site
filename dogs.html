@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meet the Dogs | Rosalie and Friends</title>
+  <meta name="description" content="Meet the dogs of Rosalie and Friends — adoptable pups, fixer uppers on the mend, and fospice seniors looking for forever foster homes." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" type="image/jpeg" href="images/mascot.jpg" />
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <header class="navbar">
+    <div class="container">
+      <nav class="navbar__inner">
+        <a href="index.html" class="navbar__logo">
+          <img src="images/mascot.jpg" onerror="this.onerror=null;this.src='images/mascot-placeholder.svg';" alt="" class="navbar__logo-img" />
+          <span>Rosalie &amp; Friends</span>
+        </a>
+        <ul class="navbar__links">
+          <li><a href="about.html">About</a></li>
+          <li><a href="dogs.html">Meet the Dogs</a></li>
+          <li><a href="fospice.html">Fospice</a></li>
+          <li><a href="foster.html">Foster</a></li>
+          <li><a href="ways-to-help.html">Ways to Help</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <a href="ways-to-help.html#donate" class="btn btn-primary navbar__cta">Donate</a>
+        <button class="navbar__hamburger" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+  <nav class="nav-overlay" aria-label="Mobile navigation">
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="dogs.html">Meet the Dogs</a>
+    <a href="fospice.html">Fospice Program</a>
+    <a href="foster.html">Foster</a>
+    <a href="ways-to-help.html">Ways to Help</a>
+    <a href="contact.html">Contact</a>
+    <a href="ways-to-help.html#donate" class="btn btn-primary">Donate</a>
+  </nav>
+
+  <main id="main-content">
+    <!-- PAGE HERO -->
+    <section class="page-hero">
+      <div class="container">
+        <h1>Meet the Dogs</h1>
+        <p>From bouncy fixer-upper pups to gentle fospice seniors &mdash; every dog here is vetted, vaccinated, spayed/neutered, and waiting for a soft place to land.</p>
+      </div>
+    </section>
+
+    <!-- FILTER/SORT + DOG GRID -->
+    <section class="section">
+      <div class="container">
+        <div class="filter-bar">
+          <div class="filter-group">
+            <span class="filter-bar__label">Filter:</span>
+            <div class="filter-pills" role="group" aria-label="Filter dogs">
+              <button class="filter-pill active" data-filter="all" aria-pressed="true">All Dogs</button>
+              <button class="filter-pill" data-filter="puppy" aria-pressed="false">Puppy</button>
+              <button class="filter-pill" data-filter="young" aria-pressed="false">Young</button>
+              <button class="filter-pill" data-filter="adult" aria-pressed="false">Adult</button>
+              <button class="filter-pill" data-filter="senior" aria-pressed="false">Senior</button>
+              <button class="filter-pill" data-filter="small" aria-pressed="false">Small</button>
+              <button class="filter-pill" data-filter="large" aria-pressed="false">Large</button>
+              <button class="filter-pill" data-filter="fospice" aria-pressed="false">Fospice</button>
+            </div>
+          </div>
+          <div class="sort-group">
+            <label for="dog-sort" class="filter-bar__label">Sort by:</label>
+            <select id="dog-sort" class="sort-select">
+              <option value="default">Featured</option>
+              <option value="name-asc">Name (A&ndash;Z)</option>
+              <option value="age-asc">Age (youngest first)</option>
+              <option value="age-desc">Age (oldest first)</option>
+            </select>
+          </div>
+        </div>
+
+        <p class="dog-count" id="dog-count" aria-live="polite"></p>
+
+        <div class="dog-grid adopt-grid">
+          <article class="dog-card" data-tags="young large" data-name="Biscuit" data-age="24">
+            <img src="https://placedog.net/600/450?id=1" alt="Biscuit, 2-year-old Golden Retriever mix" class="dog-card__img" />
+            <div class="dog-card__body">
+              <div class="dog-card__meta">
+                <span class="dog-card__tag">2 Years</span>
+                <span class="dog-card__tag">Golden Mix</span>
+                <span class="dog-card__tag">Large</span>
+              </div>
+              <h3 class="dog-card__name">Biscuit</h3>
+              <p class="dog-card__desc">Gentle and playful. Great with kids and other dogs. Loves walks and belly rubs.</p>
+              <a href="contact.html" class="btn btn-terracotta" style="margin-top: var(--space-2); font-size: 0.9375rem;">Inquire About Biscuit</a>
+            </div>
+          </article>
+          <article class="dog-card" data-tags="young large" data-name="Luna" data-age="12">
+            <img src="https://placedog.net/600/450?id=2" alt="Luna, 1-year-old Border Collie mix" class="dog-card__img" />
+            <div class="dog-card__body">
+              <div class="dog-card__meta">
+                <span class="dog-card__tag">1 Year</span>
+                <span class="dog-card__tag">Border Collie Mix</span>
+                <span class="dog-card__tag">Medium</span>
+              </div>
+              <h3 class="dog-card__name">Luna</h3>
+              <p class="dog-card__desc">High energy and incredibly smart. Best with active families or experienced dog owners.</p>
+              <a href="contact.html" class="btn btn-terracotta" style="margin-top: var(--space-2); font-size: 0.9375rem;">Inquire About Luna</a>
+            </div>
+          </article>
+          <article class="dog-card" data-tags="adult large" data-name="Mango" data-age="48">
+            <img src="https://placedog.net/600/450?id=3" alt="Mango, 4-year-old Labrador mix" class="dog-card__img" />
+            <div class="dog-card__body">
+              <div class="dog-card__meta">
+                <span class="dog-card__tag">4 Years</span>
+                <span class="dog-card__tag">Lab Mix</span>
+                <span class="dog-card__tag">Large</span>
+              </div>
+              <h3 class="dog-card__name">Mango</h3>
+              <p class="dog-card__desc">Calm, sweet, and loyal. Perfect for a quieter home. Loves couch cuddles and short walks.</p>
+              <a href="contact.html" class="btn btn-terracotta" style="margin-top: var(--space-2); font-size: 0.9375rem;">Inquire About Mango</a>
+            </div>
+          </article>
+          <article class="dog-card" data-tags="puppy small" data-name="Peanut" data-age="4">
+            <img src="https://placedog.net/600/450?id=4" alt="Peanut, 4-month-old Chihuahua mix" class="dog-card__img" />
+            <div class="dog-card__body">
+              <div class="dog-card__meta">
+                <span class="dog-card__tag">4 Months</span>
+                <span class="dog-card__tag">Chihuahua Mix</span>
+                <span class="dog-card__tag">Small</span>
+              </div>
+              <h3 class="dog-card__name">Peanut</h3>
+              <p class="dog-card__desc">Tiny but mighty! Peanut is full of personality and looking for a patient, loving home.</p>
+              <a href="contact.html" class="btn btn-terracotta" style="margin-top: var(--space-2); font-size: 0.9375rem;">Inquire About Peanut</a>
+            </div>
+          </article>
+          <article class="dog-card" data-tags="adult small" data-name="Coco" data-age="36">
+            <img src="https://placedog.net/600/450?id=5" alt="Coco, 3-year-old Dachshund mix" class="dog-card__img" />
+            <div class="dog-card__body">
+              <div class="dog-card__meta">
+                <span class="dog-card__tag">3 Years</span>
+                <span class="dog-card__tag">Dachshund Mix</span>
+                <span class="dog-card__tag">Small</span>
+              </div>
+              <h3 class="dog-card__name">Coco</h3>
+              <p class="dog-card__desc">House-trained and gentle. Coco does well in apartments and loves snuggling under blankets.</p>
+              <a href="contact.html" class="btn btn-terracotta" style="margin-top: var(--space-2); font-size: 0.9375rem;">Inquire About Coco</a>
+            </div>
+          </article>
+          <article class="dog-card" data-tags="young large" data-name="Rex" data-age="24">
+            <img src="https://placedog.net/600/450?id=6" alt="Rex, 2-year-old German Shepherd mix" class="dog-card__img" />
+            <div class="dog-card__body">
+              <div class="dog-card__meta">
+                <span class="dog-card__tag">2 Years</span>
+                <span class="dog-card__tag">German Shepherd Mix</span>
+                <span class="dog-card__tag">Large</span>
+              </div>
+              <h3 class="dog-card__name">Rex</h3>
+              <p class="dog-card__desc">Loyal, protective, and smart. Rex needs an experienced owner and a home with a yard.</p>
+              <a href="contact.html" class="btn btn-terracotta" style="margin-top: var(--space-2); font-size: 0.9375rem;">Inquire About Rex</a>
+            </div>
+          </article>
+          <article class="dog-card" data-tags="senior small fospice" data-name="Willow" data-age="132">
+            <img src="https://placedog.net/600/450?id=7" alt="Willow, 11-year-old Beagle mix in the fospice program" class="dog-card__img" />
+            <div class="dog-card__body">
+              <div class="dog-card__meta">
+                <span class="dog-card__tag">11 Years</span>
+                <span class="dog-card__tag">Beagle Mix</span>
+                <span class="dog-card__tag dog-card__tag--fospice">Fospice</span>
+              </div>
+              <h3 class="dog-card__name">Willow</h3>
+              <p class="dog-card__desc">A gentle senior girl seeking a forever foster home. We cover all her medical care &mdash; you provide the sunny window and soft lap.</p>
+              <a href="contact.html" class="btn btn-terracotta" style="margin-top: var(--space-2); font-size: 0.9375rem;">Inquire About Willow</a>
+            </div>
+          </article>
+          <article class="dog-card" data-tags="senior large" data-name="Gus" data-age="108">
+            <img src="https://placedog.net/600/450?id=8" alt="Gus, 9-year-old Boxer mix" class="dog-card__img" />
+            <div class="dog-card__body">
+              <div class="dog-card__meta">
+                <span class="dog-card__tag">9 Years</span>
+                <span class="dog-card__tag">Boxer Mix</span>
+                <span class="dog-card__tag">Large</span>
+              </div>
+              <h3 class="dog-card__name">Gus</h3>
+              <p class="dog-card__desc">A dignified old soul who has already done his zoomies. Gus wants slow strolls, good snacks, and his own person.</p>
+              <a href="contact.html" class="btn btn-terracotta" style="margin-top: var(--space-2); font-size: 0.9375rem;">Inquire About Gus</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="no-results" id="no-dogs" hidden>
+          <h3>No dogs match that filter right now</h3>
+          <p>Our roster changes weekly &mdash; try another filter, or <a href="contact.html" style="color: var(--color-terracotta); font-weight: 600;">get in touch</a> and we'll let you know when the right dog arrives.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS (adopt page version) -->
+    <section class="section how-it-works" id="how-it-works">
+      <div class="container">
+        <div class="section-header">
+          <h2>The Adoption Process</h2>
+          <p>Simple, transparent, and designed to find the best match for both you and your new dog.</p>
+        </div>
+        <div class="steps-grid">
+          <div class="step">
+            <div class="step__icon" aria-hidden="true">01</div>
+            <h3 class="step__title">Submit an Application</h3>
+            <p class="step__desc">Fill out our brief application. We ask about your home, lifestyle, and experience with dogs to find your best match.</p>
+          </div>
+          <div class="step">
+            <div class="step__icon" aria-hidden="true">02</div>
+            <h3 class="step__title">Application Review</h3>
+            <p class="step__desc">Our board reviews every application, followed by a phone call to talk through the details.</p>
+          </div>
+          <div class="step">
+            <div class="step__icon" aria-hidden="true">03</div>
+            <h3 class="step__title">Meet &amp; Greet</h3>
+            <p class="step__desc">We arrange a home visit and meet-and-greet with your matched dog so you can connect before committing.</p>
+          </div>
+          <div class="step">
+            <div class="step__icon" aria-hidden="true">04</div>
+            <h3 class="step__title">Welcome Home</h3>
+            <p class="step__desc">Once approved, your dog comes home with you &mdash; and if life ever changes, we will always take them back.</p>
+          </div>
+        </div>
+        <div style="text-align: center; margin-top: var(--space-6);">
+          <a href="https://form.jotform.com/223268341300041" target="_blank" rel="noopener" class="btn btn-terracotta">Start Your Application</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- BOTTOM CTA BANNER -->
+    <section class="adopt-cta-banner">
+      <div class="container">
+        <h2>Can't adopt right now?</h2>
+        <p>You can still make a difference by fostering, volunteering, or donating.</p>
+        <div style="display:flex; gap: var(--space-2); justify-content:center; flex-wrap:wrap; margin-top:var(--space-4);">
+          <a href="foster.html" class="btn btn-outline">Become a Foster</a>
+          <a href="ways-to-help.html" class="btn btn-outline">See All Ways to Help</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <p class="footer__logo">Rosalie &amp; Friends</p>
+          <p class="footer__tagline">&ldquo;Fospice and fixer uppers.&rdquo; Giving senior, sick, and overlooked dogs the comfort, care, and love they deserve.</p>
+          <p class="footer__address">Rosalie and Friends Inc.<br />PO Box 11553, Pensacola, FL 32524</p>
+          <div class="footer__social">
+            <a href="https://www.facebook.com/rosalieandfriends" target="_blank" rel="noopener" aria-label="Facebook">f</a>
+          </div>
+        </div>
+        <nav class="footer__nav">
+          <h4>Pages</h4>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="dogs.html">Meet the Dogs</a></li>
+            <li><a href="fospice.html">Fospice Program</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <nav class="footer__nav">
+          <h4>Get Involved</h4>
+          <ul>
+            <li><a href="foster.html">Foster a Dog</a></li>
+            <li><a href="ways-to-help.html">Ways to Help</a></li>
+            <li><a href="ways-to-help.html#donate">Donate</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 Rosalie and Friends Inc. &middot; 501(c)(3) nonprofit &middot; EIN 47-4412072 &middot; All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>
+    (function () {
+      const pills = document.querySelectorAll('.filter-pill');
+      const grid = document.querySelector('.adopt-grid');
+      const cards = Array.from(grid.querySelectorAll('.dog-card'));
+      const originalOrder = cards.slice();
+      const sortSelect = document.getElementById('dog-sort');
+      const countEl = document.getElementById('dog-count');
+      const emptyEl = document.getElementById('no-dogs');
+      let activeFilter = 'all';
+
+      function apply() {
+        // 1. Sort (re-append in the chosen order)
+        const ordered = originalOrder.slice();
+        switch (sortSelect.value) {
+          case 'name-asc':
+            ordered.sort((a, b) => a.dataset.name.localeCompare(b.dataset.name));
+            break;
+          case 'age-asc':
+            ordered.sort((a, b) => Number(a.dataset.age) - Number(b.dataset.age));
+            break;
+          case 'age-desc':
+            ordered.sort((a, b) => Number(b.dataset.age) - Number(a.dataset.age));
+            break;
+        }
+        ordered.forEach(card => grid.appendChild(card));
+
+        // 2. Filter (exact tag match, not substring)
+        let visible = 0;
+        ordered.forEach(card => {
+          const tags = (card.dataset.tags || '').split(/\s+/);
+          const show = activeFilter === 'all' || tags.includes(activeFilter);
+          card.style.display = show ? '' : 'none';
+          if (show) visible++;
+        });
+
+        // 3. Count + empty state
+        countEl.textContent = 'Showing ' + visible + ' of ' + cards.length + ' dogs';
+        emptyEl.hidden = visible !== 0;
+        grid.style.display = visible === 0 ? 'none' : '';
+      }
+
+      pills.forEach(pill => {
+        pill.addEventListener('click', () => {
+          pills.forEach(p => {
+            p.classList.remove('active');
+            p.setAttribute('aria-pressed', 'false');
+          });
+          pill.classList.add('active');
+          pill.setAttribute('aria-pressed', 'true');
+          activeFilter = pill.dataset.filter;
+          apply();
+        });
+      });
+
+      sortSelect.addEventListener('change', apply);
+      apply();
+    })();
+  </script>
+</body>
+</html>

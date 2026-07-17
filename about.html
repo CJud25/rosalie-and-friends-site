@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us | Rosalie and Friends</title>
+  <meta name="description" content="Learn about Rosalie and Friends — our mission, our story, and the fospice and fixer upper dogs we serve in Pensacola, FL." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" type="image/jpeg" href="images/mascot.jpg" />
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <header class="navbar">
+    <div class="container">
+      <nav class="navbar__inner">
+        <a href="index.html" class="navbar__logo">
+          <img src="images/mascot.jpg" onerror="this.onerror=null;this.src='images/mascot-placeholder.svg';" alt="" class="navbar__logo-img" />
+          <span>Rosalie &amp; Friends</span>
+        </a>
+        <ul class="navbar__links">
+          <li><a href="about.html">About</a></li>
+          <li><a href="dogs.html">Meet the Dogs</a></li>
+          <li><a href="fospice.html">Fospice</a></li>
+          <li><a href="foster.html">Foster</a></li>
+          <li><a href="ways-to-help.html">Ways to Help</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <a href="ways-to-help.html#donate" class="btn btn-primary navbar__cta">Donate</a>
+        <button class="navbar__hamburger" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+  <nav class="nav-overlay" aria-label="Mobile navigation">
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="dogs.html">Meet the Dogs</a>
+    <a href="fospice.html">Fospice Program</a>
+    <a href="foster.html">Foster</a>
+    <a href="ways-to-help.html">Ways to Help</a>
+    <a href="contact.html">Contact</a>
+    <a href="ways-to-help.html#donate" class="btn btn-primary">Donate</a>
+  </nav>
+
+  <main id="main-content">
+    <!-- MISSION HERO -->
+    <section class="page-hero">
+      <div class="container">
+        <h1>Our Mission</h1>
+        <p>We rescue the seniors, the sick, and the overlooked &mdash; the fospice and fixer uppers &mdash; and surround them with medical care, foster homes, and a community that refuses to give up on them.</p>
+      </div>
+    </section>
+
+    <!-- ORIGIN STORY -->
+    <section class="section">
+      <div class="container">
+        <div class="story-grid">
+          <div class="story-text">
+            <h2>How Rosalie Started Everything</h2>
+            <!-- NOTE FOR CHRIS: confirm the founding details/wording with the org before launch. -->
+            <p>Rosalie and Friends grew out of years of quietly doing the hard thing: taking in the sick, the injured, and the dogs no one else would &mdash; nursing them back to health one at a time, and finding them homes.</p>
+            <p style="margin-top: var(--space-3);">In late 2022, the long-respected nonprofit Friends of the Escambia County Animal Shelter dissolved and entrusted its work to Rosalie and Friends. We carry those programs forward today &mdash; sponsoring heartworm treatment for shelter adoptions, providing medical assistance for shelter animals, and running a fospice program that moves senior pets out of the shelter and into loving homes through the end of their lives.</p>
+            <p style="margin-top: var(--space-3);">Our motto is <em>&ldquo;fospice and fixer uppers&rdquo;</em> &mdash; but that has never stopped us from helping any dog that crosses our path.</p>
+          </div>
+          <div class="story-image">
+            <img src="images/mascot.jpg" onerror="this.onerror=null;this.src='https://placedog.net/600/500?id=10';" alt="Rosalie, the rescue's namesake and mascot" class="story-img" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- IMPACT STATS -->
+    <!-- NOTE FOR CHRIS: placeholder numbers — swap in real figures from the ops dashboard. -->
+    <section class="stats-bar">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat">
+            <span class="stat__number">400+</span>
+            <span class="stat__label">Dogs Rescued</span>
+          </div>
+          <div class="stat">
+            <span class="stat__number">380+</span>
+            <span class="stat__label">Dogs Adopted</span>
+          </div>
+          <div class="stat">
+            <span class="stat__number">60+</span>
+            <span class="stat__label">Fosters &amp; Volunteers</span>
+          </div>
+          <div class="stat">
+            <span class="stat__number">5</span>
+            <span class="stat__label">Years of Rescue</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GET INVOLVED (Volunteer + Foster) -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Get Involved</h2>
+          <p>Every role matters. Here's how you can support our mission.</p>
+        </div>
+        <div class="involve-grid">
+          <div class="involve-card">
+            <div class="involve-card__icon" aria-hidden="true">&#10022;</div>
+            <h3>Volunteer</h3>
+            <p>Dog walking, transport runs, event support, social media, and more. We have a role for every schedule and skill set.</p>
+            <a href="contact.html" class="btn btn-sage">Apply to Volunteer</a>
+          </div>
+          <div class="involve-card">
+            <div class="involve-card__icon" aria-hidden="true">&#8962;</div>
+            <h3>Foster a Dog</h3>
+            <p>Provide a home for a dog in transition &mdash; or a forever foster home for a fospice senior. Fosters are the heart of what we do.</p>
+            <a href="foster.html" class="btn btn-sage">Learn About Fostering</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SUPPORT CTA (donation block now lives on Ways to Help) -->
+    <section class="adopt-cta-banner">
+      <div class="container">
+        <h2>Every rescue runs on generosity</h2>
+        <p>Vet bills, medications, food, transport &mdash; it all comes from people like you. See all the ways to pitch in, big or small.</p>
+        <div style="display:flex; gap: var(--space-2); justify-content:center; flex-wrap:wrap; margin-top:var(--space-4);">
+          <a href="ways-to-help.html#donate" class="btn btn-primary">Donate Now</a>
+          <a href="ways-to-help.html" class="btn btn-outline">All Ways to Help</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <p class="footer__logo">Rosalie &amp; Friends</p>
+          <p class="footer__tagline">&ldquo;Fospice and fixer uppers.&rdquo; Giving senior, sick, and overlooked dogs the comfort, care, and love they deserve.</p>
+          <p class="footer__address">Rosalie and Friends Inc.<br />PO Box 11553, Pensacola, FL 32524</p>
+          <div class="footer__social">
+            <a href="https://www.facebook.com/rosalieandfriends" target="_blank" rel="noopener" aria-label="Facebook">f</a>
+          </div>
+        </div>
+        <nav class="footer__nav">
+          <h4>Pages</h4>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="dogs.html">Meet the Dogs</a></li>
+            <li><a href="fospice.html">Fospice Program</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <nav class="footer__nav">
+          <h4>Get Involved</h4>
+          <ul>
+            <li><a href="foster.html">Foster a Dog</a></li>
+            <li><a href="ways-to-help.html">Ways to Help</a></li>
+            <li><a href="ways-to-help.html#donate">Donate</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 Rosalie and Friends Inc. &middot; 501(c)(3) nonprofit &middot; EIN 47-4412072 &middot; All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
