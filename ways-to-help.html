@@ -8,8 +8,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="css/styles.css" />
-  <link rel="icon" type="image/jpeg" href="images/mascot.jpg" />
+  <link rel="stylesheet" href="/css/styles.css" />
+  <link rel="icon" type="image/jpeg" href="/images/mascot.jpg" />
 </head>
 <body>
   <a href="#main-content" class="skip-link">Skip to main content</a>
@@ -17,19 +17,19 @@
   <header class="navbar">
     <div class="container">
       <nav class="navbar__inner">
-        <a href="index.html" class="navbar__logo">
-          <img src="images/mascot.jpg" onerror="this.onerror=null;this.src='images/mascot-placeholder.svg';" alt="" class="navbar__logo-img" />
+        <a href="/" class="navbar__logo">
+          <img src="/images/mascot.jpg" onerror="this.onerror=null;this.src='images/mascot-placeholder.svg';" alt="" class="navbar__logo-img" />
           <span>Rosalie &amp; Friends</span>
         </a>
         <ul class="navbar__links">
-          <li><a href="about.html">About</a></li>
-          <li><a href="dogs.html">Meet the Dogs</a></li>
-          <li><a href="fospice.html">Fospice</a></li>
-          <li><a href="foster.html">Foster</a></li>
-          <li><a href="ways-to-help.html">Ways to Help</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/dogs">Meet the Dogs</a></li>
+          <li><a href="/fospice">Fospice</a></li>
+          <li><a href="/foster">Foster</a></li>
+          <li><a href="/ways-to-help">Ways to Help</a></li>
+          <li><a href="/contact">Contact</a></li>
         </ul>
-        <a href="ways-to-help.html#donate" class="btn btn-primary navbar__cta">Donate</a>
+        <a href="/ways-to-help#donate" class="btn btn-primary navbar__cta">Donate</a>
         <button class="navbar__hamburger" aria-label="Toggle navigation" aria-expanded="false">
           <span></span><span></span><span></span>
         </button>
@@ -37,14 +37,14 @@
     </div>
   </header>
   <nav class="nav-overlay" aria-label="Mobile navigation">
-    <a href="index.html">Home</a>
-    <a href="about.html">About Us</a>
-    <a href="dogs.html">Meet the Dogs</a>
-    <a href="fospice.html">Fospice Program</a>
-    <a href="foster.html">Foster</a>
-    <a href="ways-to-help.html">Ways to Help</a>
-    <a href="contact.html">Contact</a>
-    <a href="ways-to-help.html#donate" class="btn btn-primary">Donate</a>
+    <a href="/">Home</a>
+    <a href="/about">About Us</a>
+    <a href="/dogs">Meet the Dogs</a>
+    <a href="/fospice">Fospice Program</a>
+    <a href="/foster">Foster</a>
+    <a href="/ways-to-help">Ways to Help</a>
+    <a href="/contact">Contact</a>
+    <a href="/ways-to-help#donate" class="btn btn-primary">Donate</a>
   </nav>
 
   <main id="main-content">
@@ -70,25 +70,25 @@
             <div class="involve-card__icon" aria-hidden="true">&#10010;</div>
             <h3>Sponsor a Fospice Dog</h3>
             <p>Can't foster? Cover a fospice dog's monthly medications and comfort care from wherever you are &mdash; and get updates on your sponsored pup.</p>
-            <a href="contact.html" class="btn btn-terracotta">Become a Sponsor</a>
+            <a href="/contact" class="btn btn-terracotta">Become a Sponsor</a>
           </div>
           <div class="involve-card">
             <div class="involve-card__icon" aria-hidden="true">&#8962;</div>
             <h3>Foster</h3>
             <p>We have no facility &mdash; foster homes are the rescue. Short-term, recovery, or forever fospice: there's a fit for your household.</p>
-            <a href="foster.html" class="btn btn-sage">Learn About Fostering</a>
+            <a href="/foster" class="btn btn-sage">Learn About Fostering</a>
           </div>
           <div class="involve-card">
             <div class="involve-card__icon" aria-hidden="true">&#9733;</div>
             <h3>Adopt</h3>
             <p>The happiest way to help: give one of our dogs their forever home and open up a foster spot for the next one in line.</p>
-            <a href="dogs.html" class="btn btn-sage">Meet the Dogs</a>
+            <a href="/dogs" class="btn btn-sage">Meet the Dogs</a>
           </div>
           <div class="involve-card">
             <div class="involve-card__icon" aria-hidden="true">&#10022;</div>
             <h3>Volunteer</h3>
             <p>Transport runs, event help, photography, social media, admin &mdash; there's a role for every schedule and skill set.</p>
-            <a href="contact.html" class="btn btn-sage">Apply to Volunteer</a>
+            <a href="/contact" class="btn btn-sage">Apply to Volunteer</a>
           </div>
           <div class="involve-card">
             <div class="involve-card__icon" aria-hidden="true">&#10148;</div>
@@ -108,10 +108,10 @@
             <h2>Support Our Mission</h2>
             <p>Every dollar goes directly toward rescuing and caring for dogs &mdash; vet bills, medications, food, transport, and supplies. No donation is too small.</p>
           </div>
-          <!-- NOTE FOR CHRIS: swap these for the org's real PayPal/Venmo donation URLs. -->
+          <!-- TODO(owner): swap the PayPal href for the org's real donation link when available. -->
           <div class="donation-block__actions">
-            <a href="https://www.paypal.com" target="_blank" rel="noopener" class="btn btn-terracotta">Donate via PayPal</a>
-            <a href="https://venmo.com" target="_blank" rel="noopener" class="btn btn-outline-dark">Donate via Venmo</a>
+            <a href="https://venmo.com/u/rosalieandfriends" target="_blank" rel="noopener" class="btn btn-terracotta">Donate via Venmo</a>
+            <a href="https://www.paypal.com" target="_blank" rel="noopener" class="btn btn-outline-dark">Donate via PayPal</a>
           </div>
         </div>
       </div>
@@ -132,18 +132,18 @@
         <nav class="footer__nav">
           <h4>Pages</h4>
           <ul>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="dogs.html">Meet the Dogs</a></li>
-            <li><a href="fospice.html">Fospice Program</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/dogs">Meet the Dogs</a></li>
+            <li><a href="/fospice">Fospice Program</a></li>
+            <li><a href="/contact">Contact</a></li>
           </ul>
         </nav>
         <nav class="footer__nav">
           <h4>Get Involved</h4>
           <ul>
-            <li><a href="foster.html">Foster a Dog</a></li>
-            <li><a href="ways-to-help.html">Ways to Help</a></li>
-            <li><a href="ways-to-help.html#donate">Donate</a></li>
+            <li><a href="/foster">Foster a Dog</a></li>
+            <li><a href="/ways-to-help">Ways to Help</a></li>
+            <li><a href="/ways-to-help#donate">Donate</a></li>
           </ul>
         </nav>
       </div>
@@ -153,6 +153,6 @@
     </div>
   </footer>
 
-  <script src="js/main.js"></script>
+  <script src="/js/main.js"></script>
 </body>
 </html>

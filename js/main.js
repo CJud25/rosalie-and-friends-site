@@ -21,11 +21,11 @@ if (hamburger && navOverlay) {
   });
 }
 
-// Mark active nav link
-const currentPage = window.location.pathname.split('/').pop() || 'index.html';
+// Mark active nav link (paths are extensionless; "/" is home)
+const currentPath = (window.location.pathname.replace(/\.html$/, '').replace(/\/$/, '')) || '/';
 document.querySelectorAll('.navbar__links a, .nav-overlay a').forEach(link => {
-  const linkPage = link.getAttribute('href');
-  if (linkPage === currentPage || (currentPage === '' && linkPage === 'index.html')) {
+  const href = (link.getAttribute('href') || '').split('#')[0];
+  if (href === currentPath || (currentPath === '/' && href === '/')) {
     link.classList.add('active');
   }
 });

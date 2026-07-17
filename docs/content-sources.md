@@ -60,32 +60,32 @@ Every fact shown on the site traces to one of these sources. Raw harvest archive
 ### Crumpet
 - source: petfinder.com/dog/crumpet-784fb3f4-7d3d-4fec-801b-b0ca1ad44af0/fl/milton/rosalie-and-friends-fl1850/details/
 - photo: crumpet-1.jpg, crumpet-2.jpg
-- facts: Female, 9 months, 45 lbs, spayed, vaccinated; loves water play, dog friends, treats, cuddles; wants fenced yard + playful canine buddy; not suited to apartment living. "From crusty to classy."
+- facts: Female, 9 months, 45 lbs, spayed, vaccinated; NOT yet house-trained; loves water play, dog friends, treats, cuddles; wants fenced yard + playful canine buddy; not suited to apartment living. "From crusty to classy."
 
 ### Portia
 - source: petfinder.com/dog/portia-46c279d0-f2a3-4148-906c-aab771c4344e/fl/milton/rosalie-and-friends-fl1850/details/
 - photo: portia-1.jpg, portia-2.jpg
-- facts: Female, 9 months, 31 lbs, bully mix, spayed, vaccinated; loves outdoor play, car rides, toys, blanket-burrowing; survived severe abuse, "has chosen joy anyway"; good with dogs & kids U8; not yet house-trained. **Sponsored adoption fee.**
+- facts: Female, 9 months, 31 lbs, bully mix, spayed, vaccinated; loves outdoor play, car rides, toys, blanket-burrowing; survived severe abuse, "has chosen joy anyway"; good with dogs; rescue says BEST WITH OLDER KIDS; wants active family with FENCED YARD; mostly potty-trained, crate- and leash-trained. **Sponsored adoption fee.**
 
 ### Penelope
 - source: petfinder.com/dog/penelope-8c53520c-4897-42e9-ba5b-69ce497c7ac7/fl/milton/rosalie-and-friends-fl1850/details/
 - photo: penelope-1.jpg, penelope-2.jpg
-- facts: Female, 2.5 years, 13 lbs, Rat Terrier mix, spayed, vaccinated, house-trained; good with dogs, cats, kids U8. Rescued from severe hoarding/neglect, arrived emaciated + heartworm-positive; treatment COMPLETE, fully vetted; needs patient understanding home.
+- facts: Female, 2.5 years, 13 lbs, Rat Terrier mix, spayed, vaccinated, house-trained; good with dogs & cats. Rescue says OLDER KIDS BEST ("toddlers can be a bit scary and unpredictable to her"). Rescued from severe hoarding/neglect, arrived emaciated + heartworm-positive; treatment COMPLETE, fully vetted; needs patient understanding home.
 
 ### Rukus
 - source: petfinder.com/dog/rukus-33919e74-04cd-4369-9d25-3b53f6d0020c/fl/milton/rosalie-and-friends-fl1850/details/
 - photo: rukus-1.jpg, rukus-2.jpg
-- facts: Male, 3 months, 14 lbs, shepherd-mix puppy, brindle markings, vaccinated (neuter pending — puppy); loves tug-of-war; sleeps through the night; learning sit/down/leave-it/leash; good with dogs & kids U8.
+- facts: Male, 3 months, 14 lbs, Labrador Retriever/Shepherd mix puppy, brindle markings, vaccinated, not yet neutered, NOT yet house-trained (training in progress); loves tug-of-war; sleeps through the night; learning sit/down/leave-it/leash; good with dogs & kids U8.
 
 ### Hutch
 - source: petfinder.com/dog/hutch-10506e60-514c-454d-a90c-30dfb9bc1795/fl/milton/rosalie-and-friends-fl1850/details/
 - photo: hutch-1.jpg, hutch-2.jpg
-- facts: Male, puppy, Chihuahua mix, expected adult weight 20–25 lbs, vaccinated; crate-trained, house-training in progress; good with dogs, cats, kids U8; smart, eager to learn, people-oriented.
+- facts: Male, puppy, Chihuahua mix, expected adult weight 20–25 lbs, vaccinated; crate-trained, house-training in progress; good with dogs, cats, kids U8; smart, eager to learn, people-oriented. Rescue says NO APARTMENT LIVING (age, energy, love of exploring) — needs an active home with plenty of exercise.
 
 ### Toofers (Tootie) — SENIOR
 - source: petfinder.com/dog/toofers-0a3352ba-7403-4e28-bd4c-6f92d260688e/fl/milton/rosalie-and-friends-fl1850/details/
 - photo: toofers-1.jpg, toofers-2.jpg
-- facts: Male, ~10 years, 8 lbs, Chihuahua/Pekingese, neutered, vaccinated, house-trained; good with kids U8. Chatty ("narrates his day"), loves blanket burrows, treats, pup cups, stroller rides, lap warming. NOTE: senior adoptable — NOT labeled fospice by the rescue; do not tag him fospice on the site.
+- facts: Male, ~10 years, 8 lbs, Chihuahua/Pekingese, neutered, vaccinated, MOSTLY potty-trained ("just don't make an old man wait too long"). Restrictions per rescue: NO CATS; NO LARGE DOGS ("absolutely not") — prefers to be an only dog, may tolerate one calm respectful small dog; has gone after chickens/livestock. Chatty ("narrates his day"), loves blanket burrows, treats, pup cups, stroller rides, lap warming. NOTE: senior adoptable — NOT labeled fospice by the rescue; do not tag him fospice on the site.
 
 ## Recently adopted — Happy Tails (4)
 All: petfinder member page "recently adopted" section, seen 2026-07-17. Use ONLY as celebration/social proof, never as adoptable.
