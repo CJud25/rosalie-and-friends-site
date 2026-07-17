@@ -304,7 +304,7 @@ p { max-width: 65ch; }
 
 .footer__social a:hover { background-color: var(--color-terracotta); }
 
-.footer__nav h4 {
+.footer__nav h2 {
   color: var(--color-white);
   font-size: 0.875rem;
   text-transform: uppercase;
