@@ -24,6 +24,8 @@ Every fact shown on the site traces to one of these sources. Raw harvest archive
 - Adoptapet policies: "pet will be a family member living inside, no cat declawing, all animals must be spay/neutered and we will always take an animal back if adopter is ever unable to keep it"
 - Service area (adoptapet): Escambia and Santa Rosa County Florida and surrounding areas
 - Also runs heartworm-treatment sponsorship for shelter adoptions (adoptapet about)
+- Volunteer status (Petfinder listing text, verbatim): "We are a 100% volunteer organization and have to work other jobs to pay the bills. Please give us up to 48 hours to respond."
+- Application terms (Petfinder listing text, verbatim): "Submission of an adoption application does not obligate you to adopt nor does it guarantee approval."
 
 ## Adoptable dogs (12) — all sourced from each dog's Petfinder detail page, seen 2026-07-17
 
