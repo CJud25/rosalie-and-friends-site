@@ -10,6 +10,8 @@ A plain static site — no framework, no build step. HTML at the root, `css/`, `
 
 ## Preview locally
 
+Requires Node.js (any recent LTS, for `npx serve`) and Python 3 (for the `tools/` scripts; commands below use Windows' `py` launcher — substitute `python3` on macOS/Linux).
+
 ```bash
 npx serve .
 ```
