@@ -1154,3 +1154,100 @@ p { max-width: 65ch; }
   padding: 0 var(--space-3) var(--space-3);
   color: var(--color-charcoal-light);
 }
+
+/* ══ Polish layer (Phase 3) ══
+   Signature: rescue-paperwork-made-warm — rubber-stamp badges on dog photos.
+   Everything else is quiet craft: crops, focus, motion restraint. */
+
+:root {
+  --color-ink-red: #B3402E;
+  --color-ink-green: #3E6B44;
+}
+
+/* Rubber stamps */
+.dog-card { position: relative; }
+.stamp {
+  position: absolute;
+  z-index: 2;
+  font-weight: 700;
+  font-size: 0.72rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--color-ink-red);
+  border: 2px solid currentColor;
+  border-radius: 3px;
+  padding: 3px 10px;
+  background: rgba(251, 245, 238, 0.82);
+  pointer-events: none;
+}
+.stamp--adopted {
+  top: 18px;
+  left: 14px;
+  transform: rotate(-9deg);
+  font-size: 0.95rem;
+  padding: 5px 14px;
+  box-shadow: inset 0 0 0 2px rgba(251,245,238,0.5);
+}
+
+/* Sponsored-fee tag: green ink outline, reads as a mark on the paperwork */
+.dog-card__tag--sponsored {
+  color: var(--color-ink-green);
+  background: transparent;
+  border: 1.5px solid currentColor;
+  border-radius: 3px;
+}
+
+/* Card photos: favor faces in portrait shots */
+.dog-card__img { object-position: center 30%; }
+
+/* Card CTAs: apply is full-width, profile link sits on its own line */
+.dog-card__body > .btn { width: 100%; justify-content: center; }
+.dog-card__body > .dog-card__link { display: inline-block; margin-top: var(--space-2); font-size: 0.9rem; }
+
+/* Tag rows wrap instead of squeezing */
+.dog-card__meta { flex-wrap: wrap; row-gap: 6px; }
+
+/* Happy Tails: compact 4-up on wide screens */
+@media (min-width: 1024px) {
+  .dog-grid--four { grid-template-columns: repeat(4, 1fr); }
+  .dog-grid--four .dog-card__name { font-size: 1.125rem; }
+}
+
+/* Navbar mascot: a touch more presence */
+.navbar__logo-img {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid rgba(193, 96, 58, 0.35);
+}
+
+/* Hero: favor Esther and the HOME mat, lift text legibility */
+.hero__bg { object-position: 72% center; }
+.hero__overlay {
+  background: linear-gradient(to right, rgba(44,36,22,0.82) 0%, rgba(44,36,22,0.45) 55%, rgba(44,36,22,0.25) 100%);
+}
+
+/* One orchestrated moment: hero content rises on load */
+@media (prefers-reduced-motion: no-preference) {
+  .hero__content > * {
+    opacity: 0;
+    transform: translateY(14px);
+    animation: hero-rise 0.55s ease forwards;
+  }
+  .hero__content > *:nth-child(2) { animation-delay: 0.12s; }
+  .hero__content > *:nth-child(3) { animation-delay: 0.24s; }
+}
+@keyframes hero-rise { to { opacity: 1; transform: none; } }
+
+/* Quality floor */
+a:focus-visible, button:focus-visible, select:focus-visible {
+  outline: 3px solid var(--color-amber-dark);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .dog-card:hover { transform: none; }
+  * { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}
