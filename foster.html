@@ -16,7 +16,7 @@
 
   <header class="navbar">
     <div class="container">
-      <nav class="navbar__inner">
+      <nav class="navbar__inner" aria-label="Primary">
         <a href="/" class="navbar__logo">
           <img src="/images/mascot.jpg" onerror="this.onerror=null;this.src='/images/mascot-placeholder.svg';" alt="" class="navbar__logo-img" />
           <span>Rosalie &amp; Friends</span>
@@ -30,13 +30,13 @@
           <li><a href="/contact">Contact</a></li>
         </ul>
         <a href="/ways-to-help#donate" class="btn btn-primary navbar__cta">Donate</a>
-        <button class="navbar__hamburger" aria-label="Toggle navigation" aria-expanded="false">
+        <button class="navbar__hamburger" aria-label="Toggle navigation" aria-expanded="false" aria-controls="mobile-nav">
           <span></span><span></span><span></span>
         </button>
       </nav>
     </div>
   </header>
-  <nav class="nav-overlay" aria-label="Mobile navigation">
+  <nav class="nav-overlay" id="mobile-nav" aria-label="Mobile navigation">
     <a href="/">Home</a>
     <a href="/about">About Us</a>
     <a href="/dogs">Meet the Dogs</a>
@@ -140,7 +140,7 @@
           </div>
         </div>
         <div style="text-align: center; margin-top: var(--space-6);">
-          <a href="https://fb.jotform.com/223377576549168" target="_blank" rel="noopener" class="btn btn-terracotta">Start the Foster Application</a>
+          <a href="https://fb.jotform.com/223377576549168" target="_blank" rel="noopener" class="btn btn-terracotta">Start the Foster Application<span class="sr-only"> (opens in new tab)</span></a>
         </div>
       </div>
     </section>
@@ -154,7 +154,7 @@
         <div class="faq-list">
           <details class="faq">
             <summary>Does fostering cost me anything?</summary>
-            <p class="faq__body">Fostering is never meant to be a financial burden. The rescue stays responsible for its dogs &mdash; talk with the team about how vet care and supplies are handled for your specific foster.</p>
+            <p class="faq__body">Fostering is never meant to be a financial burden. For fospice dogs, the rescue covers all medical care &mdash; always. For other fosters, dogs come vetted through the rescue's program; talk with the team about how food and supplies are handled for your specific foster.</p>
           </details>
           <details class="faq">
             <summary>Can I adopt my foster dog?</summary>
@@ -182,7 +182,7 @@
         <h2>Ready to open your door?</h2>
         <p>One spare corner of your home is a whole new life for a dog.</p>
         <div style="display:flex; gap: var(--space-2); justify-content:center; flex-wrap:wrap; margin-top:var(--space-4);">
-          <a href="https://fb.jotform.com/223377576549168" target="_blank" rel="noopener" class="btn btn-primary">Apply to Foster</a>
+          <a href="https://fb.jotform.com/223377576549168" target="_blank" rel="noopener" class="btn btn-primary">Apply to Foster<span class="sr-only"> (opens in new tab)</span></a>
           <a href="/contact" class="btn btn-outline">Ask Us Anything First</a>
         </div>
       </div>
@@ -200,7 +200,7 @@
             <a href="https://www.facebook.com/rosalieandfriends" target="_blank" rel="noopener" aria-label="Facebook">f</a>
           </div>
         </div>
-        <nav class="footer__nav">
+        <nav class="footer__nav" aria-label="Footer pages">
           <h4>Pages</h4>
           <ul>
             <li><a href="/about">About Us</a></li>
@@ -209,7 +209,7 @@
             <li><a href="/contact">Contact</a></li>
           </ul>
         </nav>
-        <nav class="footer__nav">
+        <nav class="footer__nav" aria-label="Get involved">
           <h4>Get Involved</h4>
           <ul>
             <li><a href="/foster">Foster a Dog</a></li>
@@ -219,7 +219,7 @@
         </nav>
       </div>
       <div class="footer__bottom">
-        <p>&copy; 2026 Rosalie and Friends Inc. &middot; 501(c)(3) nonprofit &middot; EIN 47-4412072 &middot; All rights reserved.</p>
+        <p>&copy; 2026 Rosalie and Friends Inc. &middot; 501(c)(3) nonprofit &middot; EIN 47-4412072</p>
       </div>
     </div>
   </footer>

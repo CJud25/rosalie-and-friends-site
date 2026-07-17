@@ -3,6 +3,13 @@ const hamburger = document.querySelector('.navbar__hamburger');
 const navOverlay = document.querySelector('.nav-overlay');
 
 if (hamburger && navOverlay) {
+  const closeNav = () => {
+    hamburger.classList.remove('open');
+    hamburger.setAttribute('aria-expanded', 'false');
+    navOverlay.classList.remove('open');
+    document.body.style.overflow = '';
+  };
+
   hamburger.addEventListener('click', () => {
     const isOpen = hamburger.classList.toggle('open');
     hamburger.setAttribute('aria-expanded', String(isOpen));
@@ -10,14 +17,30 @@ if (hamburger && navOverlay) {
     document.body.style.overflow = isOpen ? 'hidden' : '';
   });
 
-  // Close on link click
   navOverlay.querySelectorAll('a').forEach(link => {
-    link.addEventListener('click', () => {
-      hamburger.classList.remove('open');
-      hamburger.setAttribute('aria-expanded', 'false');
-      navOverlay.classList.remove('open');
-      document.body.style.overflow = '';
-    });
+    link.addEventListener('click', closeNav);
+  });
+
+  // Escape closes the menu; Tab stays inside it while open
+  document.addEventListener('keydown', (e) => {
+    if (!navOverlay.classList.contains('open')) return;
+    if (e.key === 'Escape') {
+      closeNav();
+      hamburger.focus();
+      return;
+    }
+    if (e.key === 'Tab') {
+      const links = navOverlay.querySelectorAll('a');
+      const first = links[0];
+      const last = links[links.length - 1];
+      if (e.shiftKey && document.activeElement === first) {
+        e.preventDefault();
+        last.focus();
+      } else if (!e.shiftKey && (document.activeElement === last || !navOverlay.contains(document.activeElement))) {
+        e.preventDefault();
+        first.focus();
+      }
+    }
   });
 }
 

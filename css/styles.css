@@ -7,7 +7,7 @@ button { cursor: pointer; font-family: inherit; border: none; background: none; 
 
 /* ── Custom Properties ── */
 :root {
-  --color-terracotta: #C1603A;
+  --color-terracotta: #A04E2C;
   --color-terracotta-dark: #8B3A1E;
   --color-amber: #F2A63A;
   --color-amber-dark: #D4891F;
@@ -127,7 +127,7 @@ p { max-width: 65ch; }
 .btn-terracotta:hover { background-color: var(--color-terracotta-dark); }
 
 .btn-sage {
-  background-color: var(--color-sage);
+  background-color: var(--color-sage-dark);
   color: var(--color-white);
 }
 .btn-sage:hover { background-color: var(--color-sage-dark); }
@@ -227,6 +227,7 @@ p { max-width: 65ch; }
 .nav-overlay {
   display: none;
   position: fixed;
+  overflow-y: auto;
   inset: 0;
   background-color: var(--color-white);
   z-index: 99;
@@ -331,7 +332,7 @@ p { max-width: 65ch; }
   padding-top: var(--space-4);
   text-align: center;
   font-size: 0.875rem;
-  color: rgba(255,255,255,0.4);
+  color: rgba(255,255,255,0.6);
 }
 
 /* ── Dog Cards ── */
@@ -369,7 +370,7 @@ p { max-width: 65ch; }
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.06em;
-  color: var(--color-terracotta);
+  color: var(--color-terracotta-dark);
   background-color: rgba(193,96,58,0.1);
   padding: 2px var(--space-1);
   border-radius: var(--radius-sm);
@@ -404,7 +405,7 @@ p { max-width: 65ch; }
 }
 
 .page-hero h1 { color: var(--color-white); margin-bottom: var(--space-2); }
-.page-hero p { color: rgba(255,255,255,0.85); margin-inline: auto; font-size: 1.125rem; }
+.page-hero p { color: #FFFFFF; margin-inline: auto; font-size: 1.125rem; }
 
 /* ═══════════════════════════════════════════
    HOME PAGE
@@ -547,7 +548,7 @@ p { max-width: 65ch; }
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: var(--color-amber);
+  color: var(--color-cream);
   margin-bottom: var(--space-2);
 }
 
@@ -580,7 +581,7 @@ p { max-width: 65ch; }
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  color: var(--color-amber);
+  color: var(--color-cream);
   display: block;
   margin-bottom: var(--space-2);
 }
@@ -674,14 +675,14 @@ p { max-width: 65ch; }
 }
 
 .adopt-cta-banner {
-  background-color: var(--color-sage);
+  background-color: var(--color-sage-dark);
   color: var(--color-white);
   text-align: center;
   padding-block: var(--space-8);
 }
 
 .adopt-cta-banner h2 { color: var(--color-white); margin-bottom: var(--space-2); }
-.adopt-cta-banner p { color: rgba(255,255,255,0.88); margin-inline: auto; }
+.adopt-cta-banner p { color: #FFFFFF; margin-inline: auto; }
 .adopt-cta-banner .btn-outline {
   border-color: var(--color-white);
   color: var(--color-white);
@@ -770,7 +771,7 @@ p { max-width: 65ch; }
 }
 
 .donation-block__text h2 { color: var(--color-charcoal); }
-.donation-block__text p { color: var(--color-charcoal-light); max-width: 55ch; }
+.donation-block__text p { color: var(--color-charcoal); max-width: 55ch; }
 
 .donation-block__actions {
   display: flex;
@@ -913,8 +914,9 @@ p { max-width: 65ch; }
 
 /* Focus states — visible on keyboard nav */
 :focus-visible {
-  outline: 3px solid var(--color-amber);
-  outline-offset: 3px;
+  outline: 3px solid var(--color-charcoal);
+  outline-offset: 2px;
+  box-shadow: 0 0 0 6px #FFFFFF;
   border-radius: var(--radius-sm);
 }
 
@@ -1006,7 +1008,7 @@ p { max-width: 65ch; }
   border-radius: var(--radius-full);
   background-color: var(--color-white);
   font-family: var(--font-body);
-  font-size: 0.9375rem;
+  font-size: 1rem;
   font-weight: 500;
   color: var(--color-charcoal);
   appearance: none;
@@ -1044,7 +1046,7 @@ p { max-width: 65ch; }
 
 /* Fospice tag on dog cards */
 .dog-card__tag--fospice {
-  color: var(--color-sage-dark);
+  color: var(--color-ink-green);
   background-color: rgba(122,158,126,0.16);
 }
 
@@ -1177,7 +1179,7 @@ p { max-width: 65ch; }
   border: 2px solid currentColor;
   border-radius: 3px;
   padding: 3px 10px;
-  background: rgba(251, 245, 238, 0.82);
+  background: var(--color-cream);
   pointer-events: none;
 }
 .stamp--adopted {
@@ -1241,13 +1243,80 @@ p { max-width: 65ch; }
 @keyframes hero-rise { to { opacity: 1; transform: none; } }
 
 /* Quality floor */
-a:focus-visible, button:focus-visible, select:focus-visible {
-  outline: 3px solid var(--color-amber-dark);
-  outline-offset: 2px;
-  border-radius: var(--radius-sm);
-}
+
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   .dog-card:hover { transform: none; }
   * { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}
+
+/* ── Gate 3 layout fixes ── */
+
+/* 4-step processes: 2x2 on tablet, clean row of four on desktop */
+@media (min-width: 768px) { .steps-grid--4 { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 1024px) { .steps-grid--4 { grid-template-columns: repeat(4, 1fr); } }
+
+/* 5-card help grid: center the orphan row */
+@media (min-width: 768px) {
+  .involve-grid--3 { display: flex; flex-wrap: wrap; justify-content: center; }
+  .involve-grid--3 > .involve-card { flex: 0 1 340px; }
+}
+
+/* Bottom-align card CTAs everywhere */
+.involve-card { display: flex; flex-direction: column; }
+.involve-card .btn { margin-top: auto; align-self: center; }
+.involve-card p { margin-bottom: var(--space-3); }
+.dog-card { display: flex; flex-direction: column; }
+.dog-card__body { display: flex; flex-direction: column; flex: 1; }
+.dog-card__body > .btn { margin-top: auto; }
+
+/* Mobile hero: flat top-down scrim so text stays readable across the frame */
+@media (max-width: 767px) {
+  .hero__overlay { background: linear-gradient(to bottom, rgba(44,36,22,0.78) 0%, rgba(44,36,22,0.55) 100%); }
+}
+
+/* 320px viewports: navbar must not overflow */
+@media (max-width: 374px) {
+  .navbar__inner { gap: var(--space-2); }
+  .navbar__logo { font-size: 1.125rem; gap: var(--space-1); }
+  .navbar__logo-img { width: 34px; height: 34px; }
+}
+
+/* Mobile nav overlay: reachable in landscape */
+.nav-overlay { justify-content: safe center; padding-block: 88px var(--space-5); }
+
+/* Happy Tails: 2-up on phones */
+@media (max-width: 767px) {
+  .dog-grid--four { grid-template-columns: repeat(2, 1fr); gap: var(--space-2); }
+  .dog-grid--four .dog-card__name { font-size: 1.05rem; }
+  .dog-grid--four .stamp--adopted { font-size: 0.72rem; padding: 3px 10px; top: 10px; left: 10px; }
+}
+
+/* Screen-reader-only utility */
+.sr-only {
+  position: absolute;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Senior Spotlight photo */
+.spotlight-card { position: relative; }
+.spotlight-card__img {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  object-position: center 35%;
+  border-radius: var(--radius-md);
+  margin-bottom: var(--space-3);
+}
+
+/* In-prose links must look like links */
+.contact-info-card p a, .no-results p a, .faq__body a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  color: var(--color-terracotta-dark);
 }
