@@ -1,0 +1,5 @@
+# Keep internal build artifacts out of the public deploy.
+# These stay in the git repo but are NOT served at the domain.
+docs
+tools
+README.md
