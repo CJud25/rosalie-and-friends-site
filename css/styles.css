@@ -1320,3 +1320,94 @@ p { max-width: 65ch; }
   text-underline-offset: 2px;
   color: var(--color-terracotta-dark);
 }
+
+/* ============================================================
+   Dog card photo carousel
+   Any .dog-card__gallery with 2+ <img> is turned into a swipeable
+   carousel by js/main.js. Cards with a single photo are untouched.
+   ============================================================ */
+.dog-card__gallery {
+  position: relative;
+  overflow: hidden;
+}
+/* Before JS runs (or if JS is off) only the first photo shows */
+.dog-card__gallery:not(.is-enhanced) .dog-card__img ~ .dog-card__img {
+  display: none;
+}
+.dog-card__track {
+  display: flex;
+  transition: transform 0.4s ease;
+}
+.dog-card__track .dog-card__img {
+  flex: 0 0 100%;
+  width: 100%;
+}
+.dog-card__nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 34px;
+  height: 34px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.85);
+  color: var(--color-charcoal, #333);
+  font-size: 1.4rem;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow-sm);
+  opacity: 0;
+  transition: opacity var(--transition), background 0.2s;
+  z-index: 2;
+}
+.dog-card__nav--prev { left: 8px; }
+.dog-card__nav--next { right: 8px; }
+.dog-card:hover .dog-card__nav,
+.dog-card__gallery:focus-within .dog-card__nav {
+  opacity: 1;
+}
+.dog-card__nav:hover { background: #fff; }
+.dog-card__nav:focus-visible {
+  opacity: 1;
+  outline: 2px solid var(--color-terracotta);
+  outline-offset: 2px;
+}
+.dog-card__dots {
+  position: absolute;
+  bottom: 8px;
+  left: 0;
+  right: 0;
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+  z-index: 2;
+}
+.dog-card__dot {
+  width: 8px;
+  height: 8px;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.65);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.25);
+  transition: background 0.2s, transform 0.2s;
+}
+.dog-card__dot.is-active {
+  background: #fff;
+  transform: scale(1.3);
+}
+.dog-card__dot:focus-visible {
+  outline: 2px solid var(--color-terracotta);
+  outline-offset: 2px;
+}
+/* On touch devices there is no hover, so keep the arrows visible */
+@media (hover: none) {
+  .dog-card__nav { opacity: 1; background: rgba(255, 255, 255, 0.9); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .dog-card__track { transition: none; }
+}
