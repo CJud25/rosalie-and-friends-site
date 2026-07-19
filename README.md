@@ -39,11 +39,8 @@ House rules: unknown facts stay unknown ("ask us about ..."); safety restriction
 
 ## Deploying
 
-Pushes to `master` auto-deploy via Vercel's GitHub integration. DNS for rosalieandfriends.org points at Vercel from Porkbun (`A @ 76.76.21.21`, `CNAME www cname.vercel-dns.com`).
+Pushes to `master` auto-deploy via Vercel's GitHub integration. DNS for rosalieandfriends.org points at Vercel from Porkbun.
 
 ## Owner to-dos
 
-- Swap the PayPal donate button on `ways-to-help.html` for the org's real donation link (marked `TODO(owner)`).
-- Confirm the fospice medical-costs wording with the rescue (marked `TODO(owner)` in `fospice.html`).
-- Verify the foster JotForm ID (`fb.jotform.com/223377576549168`) is current.
 - When the rescue provides real impact numbers, restore the stats bar on `about.html` (see comment there).
