@@ -102,11 +102,20 @@
              down to its matching </article>) and change the green words —
              the photo name, the dog's name, age, breed, size, description.
              Upload the dog's photo to the images/dogs folder first.
+
+             PHOTOS: each dog can show more than one photo. Inside a card's
+             <div class="dog-card__gallery" data-gallery> ... </div> you'll see
+             one <img ... /> line per photo. To add another angle, upload the
+             photo to images/dogs and copy one <img ... /> line, changing the
+             file name. The arrows and dots appear automatically for 2+ photos.
              See the "Website Care Guide" PDF for step-by-step pictures.
              ============================================================ -->
         <div class="dog-grid adopt-grid">
           <article id="esther" class="dog-card" data-tags="adult medium" data-name="Esther" data-age="96">
-            <img src="/images/dogs/esther-card.jpg" alt="Esther, 8-year-old Boxer and Bully mix" class="dog-card__img" loading="lazy" />
+            <div class="dog-card__gallery" data-gallery>
+              <img src="/images/dogs/esther-card.jpg" alt="Esther, 8-year-old Boxer and Bully mix" class="dog-card__img" loading="lazy" />
+              <img src="/images/dogs/esther-3.jpg" alt="Esther, an 8-year-old Boxer and Bully mix, smiling outdoors" class="dog-card__img" loading="lazy" />
+            </div>
             <div class="dog-card__body">
               <div class="dog-card__meta">
                 <span class="dog-card__tag">8 Years</span>
@@ -119,8 +128,28 @@
               <a href="https://www.petfinder.com/dog/esther-0752916c-0354-4a71-bade-fcdf9a2d462d/fl/milton/rosalie-and-friends-fl1850/details/" target="_blank" rel="noopener" class="dog-card__link">Full profile on Petfinder &rarr;</a>
             </div>
           </article>
+          <article id="violet" class="dog-card" data-tags="young small" data-name="Violet" data-age="12">
+            <div class="dog-card__gallery" data-gallery>
+              <img src="/images/dogs/violet-1.jpg" alt="Violet, a 1-year-old Cairn Terrier mix, smiling with her tongue out" class="dog-card__img" loading="lazy" />
+              <img src="/images/dogs/violet-2.jpg" alt="Violet, a 1-year-old Cairn Terrier mix, relaxing with a purple toy" class="dog-card__img" loading="lazy" />
+            </div>
+            <div class="dog-card__body">
+              <div class="dog-card__meta">
+                <span class="dog-card__tag">1 Year</span>
+                <span class="dog-card__tag">Cairn Terrier Mix</span>
+                <span class="dog-card__tag">Small</span>
+              </div>
+              <h3 class="dog-card__name">Violet</h3>
+              <p class="dog-card__desc">A big personality in a tiny 10-lb package. Violet is playful, affectionate, and endlessly food-motivated (carrots are a favorite) &mdash; still building her confidence in the big world and making steady progress on leash and potty training. Great with dogs and cats; older kids best, and she'd love a fenced yard of her own.</p>
+              <a href="https://form.jotform.com/223268341300041" target="_blank" rel="noopener" class="btn btn-terracotta" style="margin-top: var(--space-2); font-size: 0.9375rem;">Apply to Adopt Violet<span class="sr-only"> (opens in new tab)</span></a>
+              <a href="https://www.petfinder.com/dog/violet-0f590a79-8189-4219-b808-df07fff298a3/fl/milton/rosalie-and-friends-fl1850/details/" target="_blank" rel="noopener" class="dog-card__link">Full profile on Petfinder &rarr;</a>
+            </div>
+          </article>
           <article id="toofers" class="dog-card" data-tags="senior small" data-name="Toofers" data-age="120">
-            <img src="/images/dogs/toofers-1.jpg" alt="Toofers, 10-year-old Chihuahua and Pekingese mix" class="dog-card__img" loading="lazy" />
+            <div class="dog-card__gallery" data-gallery>
+              <img src="/images/dogs/toofers-1.jpg" alt="Toofers, 10-year-old Chihuahua and Pekingese mix" class="dog-card__img" loading="lazy" />
+              <img src="/images/dogs/toofers-2.jpg" alt="Toofers, a 10-year-old Chihuahua and Pekingese mix, another photo" class="dog-card__img" loading="lazy" />
+            </div>
             <div class="dog-card__body">
               <div class="dog-card__meta">
                 <span class="dog-card__tag">~10 Years</span>
@@ -134,7 +163,10 @@
             </div>
           </article>
           <article id="penelope" class="dog-card" data-tags="young small" data-name="Penelope" data-age="30">
-            <img src="/images/dogs/penelope-1.jpg" alt="Penelope, 2.5-year-old Rat Terrier mix" class="dog-card__img" loading="lazy" />
+            <div class="dog-card__gallery" data-gallery>
+              <img src="/images/dogs/penelope-1.jpg" alt="Penelope, 2.5-year-old Rat Terrier mix" class="dog-card__img" loading="lazy" />
+              <img src="/images/dogs/penelope-3.jpg" alt="Penelope, a 2.5-year-old Rat Terrier mix, another photo" class="dog-card__img" loading="lazy" />
+            </div>
             <div class="dog-card__body">
               <div class="dog-card__meta">
                 <span class="dog-card__tag">2.5 Years</span>
@@ -147,22 +179,11 @@
               <a href="https://www.petfinder.com/dog/penelope-8c53520c-4897-42e9-ba5b-69ce497c7ac7/fl/milton/rosalie-and-friends-fl1850/details/" target="_blank" rel="noopener" class="dog-card__link">Full profile on Petfinder &rarr;</a>
             </div>
           </article>
-          <article id="ernie" class="dog-card" data-tags="young medium" data-name="Ernie" data-age="12">
-            <img src="/images/dogs/ernie-2.jpg" alt="Ernie, 1-year-old American Bully" class="dog-card__img" loading="lazy" />
-            <div class="dog-card__body">
-              <div class="dog-card__meta">
-                <span class="dog-card__tag">1 Year</span>
-                <span class="dog-card__tag">American Bully</span>
-                <span class="dog-card__tag dog-card__tag--sponsored">Fee Sponsored</span>
-              </div>
-              <h3 class="dog-card__name">Ernie</h3>
-              <p class="dog-card__desc">55 pounds of pure sweetness. Shy at first, devoted for life &mdash; kennel- and potty-trained, and happily trots to bed for his bedtime biscuit. Great with dogs, cats, and kids.</p>
-              <a href="https://form.jotform.com/223268341300041" target="_blank" rel="noopener" class="btn btn-terracotta" style="margin-top: var(--space-2); font-size: 0.9375rem;">Apply to Adopt Ernie<span class="sr-only"> (opens in new tab)</span></a>
-              <a href="https://www.petfinder.com/dog/ernie-1667bbfa-2396-4d25-abbd-e1583e6c9bae/fl/milton/rosalie-and-friends-fl1850/details/" target="_blank" rel="noopener" class="dog-card__link">Full profile on Petfinder &rarr;</a>
-            </div>
-          </article>
           <article id="liza" class="dog-card" data-tags="young medium" data-name="Liza" data-age="12">
-            <img src="/images/dogs/liza-1.jpg" alt="Liza, 1-year-old Catahoula mix" class="dog-card__img" loading="lazy" />
+            <div class="dog-card__gallery" data-gallery>
+              <img src="/images/dogs/liza-1.jpg" alt="Liza, 1-year-old Catahoula mix" class="dog-card__img" loading="lazy" />
+              <img src="/images/dogs/liza-3.jpg" alt="Liza, a 1-year-old Catahoula mix, another photo" class="dog-card__img" loading="lazy" />
+            </div>
             <div class="dog-card__body">
               <div class="dog-card__meta">
                 <span class="dog-card__tag">1 Year</span>
@@ -176,7 +197,10 @@
             </div>
           </article>
           <article id="storm" class="dog-card" data-tags="young medium" data-name="Storm" data-age="18">
-            <img src="/images/dogs/storm-1.jpg" alt="Storm, 1.5-year-old Shepherd and Lab mix" class="dog-card__img" loading="lazy" />
+            <div class="dog-card__gallery" data-gallery>
+              <img src="/images/dogs/storm-1.jpg" alt="Storm, 1.5-year-old Shepherd and Lab mix" class="dog-card__img" loading="lazy" />
+              <img src="/images/dogs/storm-3.jpg" alt="Storm, a 1.5-year-old Shepherd and Lab mix, another photo" class="dog-card__img" loading="lazy" />
+            </div>
             <div class="dog-card__body">
               <div class="dog-card__meta">
                 <span class="dog-card__tag">1.5 Years</span>
@@ -190,7 +214,11 @@
             </div>
           </article>
           <article id="blue-bell" class="dog-card" data-tags="puppy medium" data-name="Blue Bell" data-age="8">
-            <img src="/images/dogs/blue-bell-1.jpg" alt="Blue Bell, 8-month-old Retriever and Shar-Pei mix" class="dog-card__img" loading="lazy" />
+            <div class="dog-card__gallery" data-gallery>
+              <img src="/images/dogs/blue-bell-1.jpg" alt="Blue Bell, 8-month-old Retriever and Shar-Pei mix" class="dog-card__img" loading="lazy" />
+              <img src="/images/dogs/blue-bell-3.jpg" alt="Blue Bell, an 8-month-old Retriever and Shar-Pei mix, another photo" class="dog-card__img" loading="lazy" />
+              <img src="/images/dogs/blue-bell-4.jpg" alt="Blue Bell, an 8-month-old Retriever and Shar-Pei mix, playing" class="dog-card__img" loading="lazy" />
+            </div>
             <div class="dog-card__body">
               <div class="dog-card__meta">
                 <span class="dog-card__tag">8 Months</span>
@@ -204,7 +232,10 @@
             </div>
           </article>
           <article id="crumpet" class="dog-card" data-tags="puppy medium" data-name="Crumpet" data-age="9">
-            <img src="/images/dogs/crumpet-2.jpg" alt="Crumpet, 9-month-old mixed-breed puppy" class="dog-card__img" loading="lazy" />
+            <div class="dog-card__gallery" data-gallery>
+              <img src="/images/dogs/crumpet-2.jpg" alt="Crumpet, 9-month-old mixed-breed puppy" class="dog-card__img" loading="lazy" />
+              <img src="/images/dogs/crumpet-3.jpg" alt="Crumpet, a 9-month-old mixed-breed puppy, another photo" class="dog-card__img" loading="lazy" />
+            </div>
             <div class="dog-card__body">
               <div class="dog-card__meta">
                 <span class="dog-card__tag">9 Months</span>
@@ -218,7 +249,10 @@
             </div>
           </article>
           <article id="portia" class="dog-card" data-tags="puppy medium" data-name="Portia" data-age="9">
-            <img src="/images/dogs/portia-1.jpg" alt="Portia, 9-month-old Bully mix" class="dog-card__img" loading="lazy" />
+            <div class="dog-card__gallery" data-gallery>
+              <img src="/images/dogs/portia-1.jpg" alt="Portia, 9-month-old Bully mix" class="dog-card__img" loading="lazy" />
+              <img src="/images/dogs/portia-3.jpg" alt="Portia, a 9-month-old Bully mix, another photo" class="dog-card__img" loading="lazy" />
+            </div>
             <div class="dog-card__body">
               <div class="dog-card__meta">
                 <span class="dog-card__tag">9 Months</span>
@@ -232,7 +266,11 @@
             </div>
           </article>
           <article id="noodles" class="dog-card" data-tags="puppy medium" data-name="Noodles" data-age="6">
-            <img src="/images/dogs/noodles-1.jpg" alt="Noodles, Retriever and Terrier mix puppy" class="dog-card__img" loading="lazy" />
+            <div class="dog-card__gallery" data-gallery>
+              <img src="/images/dogs/noodles-1.jpg" alt="Noodles, Retriever and Terrier mix puppy" class="dog-card__img" loading="lazy" />
+              <img src="/images/dogs/noodles-3.jpg" alt="Noodles, a Retriever and Terrier mix puppy, another photo" class="dog-card__img" loading="lazy" />
+              <img src="/images/dogs/noodles-4.jpg" alt="Noodles, a Retriever and Terrier mix puppy, playing" class="dog-card__img" loading="lazy" />
+            </div>
             <div class="dog-card__body">
               <div class="dog-card__meta">
                 <span class="dog-card__tag">Puppy</span>
@@ -246,7 +284,10 @@
             </div>
           </article>
           <article id="rukus" class="dog-card" data-tags="puppy medium" data-name="Rukus" data-age="3">
-            <img src="/images/dogs/rukus-1.jpg" alt="Rukus, 3-month-old Lab and Shepherd mix puppy with brindle markings" class="dog-card__img" loading="lazy" />
+            <div class="dog-card__gallery" data-gallery>
+              <img src="/images/dogs/rukus-1.jpg" alt="Rukus, 3-month-old Lab and Shepherd mix puppy with brindle markings" class="dog-card__img" loading="lazy" />
+              <img src="/images/dogs/rukus-3.jpg" alt="Rukus, a 3-month-old Lab and Shepherd mix puppy, another photo" class="dog-card__img" loading="lazy" />
+            </div>
             <div class="dog-card__body">
               <div class="dog-card__meta">
                 <span class="dog-card__tag">3 Months</span>
@@ -260,7 +301,10 @@
             </div>
           </article>
           <article id="hutch" class="dog-card" data-tags="puppy small" data-name="Hutch" data-age="4">
-            <img src="/images/dogs/hutch-1.jpg" alt="Hutch, Chihuahua mix puppy" class="dog-card__img" loading="lazy" />
+            <div class="dog-card__gallery" data-gallery>
+              <img src="/images/dogs/hutch-1.jpg" alt="Hutch, Chihuahua mix puppy" class="dog-card__img" loading="lazy" />
+              <img src="/images/dogs/hutch-2.jpg" alt="Hutch, a Chihuahua mix puppy, another photo" class="dog-card__img" loading="lazy" />
+            </div>
             <div class="dog-card__body">
               <div class="dog-card__meta">
                 <span class="dog-card__tag">Puppy</span>
@@ -315,6 +359,14 @@
             <div class="dog-card__body">
               <h3 class="dog-card__name">Snowbelle</h3>
               <p class="dog-card__desc">The velcro &ldquo;Chihuweenie&rdquo; got her forever couch.</p>
+            </div>
+          </article>
+          <article class="dog-card">
+            <img src="/images/dogs/ernie-2.jpg" alt="Ernie, a 1-year-old American Bully, now adopted" class="dog-card__img" loading="lazy" />
+            <span class="stamp stamp--adopted" aria-hidden="true">Adopted</span>
+            <div class="dog-card__body">
+              <h3 class="dog-card__name">Ernie</h3>
+              <p class="dog-card__desc">A foster fail in the best way &mdash; his foster family couldn't say goodbye.</p>
             </div>
           </article>
         </div>
