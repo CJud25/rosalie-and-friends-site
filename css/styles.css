@@ -1224,8 +1224,8 @@ p { max-width: 65ch; }
   border: 2px solid rgba(193, 96, 58, 0.35);
 }
 
-/* Hero: favor Esther and the HOME mat, lift text legibility */
-.hero__bg { object-position: 72% center; }
+/* Hero: keep the three dogs centered, lift text legibility */
+.hero__bg { object-position: center center; }
 .hero__overlay {
   background: linear-gradient(to right, rgba(44,36,22,0.82) 0%, rgba(44,36,22,0.45) 55%, rgba(44,36,22,0.25) 100%);
 }
@@ -1270,9 +1270,25 @@ p { max-width: 65ch; }
 .dog-card__body { display: flex; flex-direction: column; flex: 1; }
 .dog-card__body > .btn { margin-top: auto; }
 
-/* Mobile hero: flat top-down scrim so text stays readable across the frame */
+/* Mobile hero: the landing photo is wide, so on phones we stack it as a
+   full banner (no cropping) with the text in a warm band below, instead of
+   cover-cropping to a single dog. */
 @media (max-width: 767px) {
-  .hero__overlay { background: linear-gradient(to bottom, rgba(44,36,22,0.78) 0%, rgba(44,36,22,0.55) 100%); }
+  .hero {
+    flex-direction: column;
+    min-height: 0;
+    background: #2C2416;
+  }
+  .hero__bg {
+    position: static;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1536 / 449;
+    object-fit: cover;
+    display: block;
+  }
+  .hero__overlay { display: none; }
+  .hero__content { padding-block: var(--space-6); width: 100%; }
 }
 
 /* 320px viewports: navbar must not overflow */
