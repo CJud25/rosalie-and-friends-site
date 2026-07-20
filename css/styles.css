@@ -414,7 +414,7 @@ p { max-width: 65ch; }
 /* Hero */
 .hero {
   position: relative;
-  min-height: 85vh;
+  min-height: 460px;
   display: flex;
   align-items: center;
   overflow: hidden;
@@ -439,7 +439,7 @@ p { max-width: 65ch; }
 .hero__content {
   position: relative;
   z-index: 2;
-  padding-block: var(--space-10);
+  padding-block: var(--space-6);
 }
 
 .hero__heading {
@@ -1224,8 +1224,9 @@ p { max-width: 65ch; }
   border: 2px solid rgba(193, 96, 58, 0.35);
 }
 
-/* Hero: keep the three dogs centered, lift text legibility */
-.hero__bg { object-position: center center; }
+/* Hero: shift the framing toward the pit bull on the left so all three
+   dogs read; the shorter hero height (see .hero) keeps the crop gentle. */
+.hero__bg { object-position: 30% center; }
 .hero__overlay {
   background: linear-gradient(to right, rgba(44,36,22,0.82) 0%, rgba(44,36,22,0.45) 55%, rgba(44,36,22,0.25) 100%);
 }
