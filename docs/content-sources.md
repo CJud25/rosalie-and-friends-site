@@ -96,6 +96,13 @@ All: petfinder member page "recently adopted" section, seen 2026-07-17. Use ONLY
 - **Wasabi** (wasabi-1.jpg) — 2-yr Chihuahua mix, abandoned at Bayview Park, "teacup black Lab" look. ADOPTED.
 - **Snowbelle** (snowbelle-1.jpg) — 2-yr "Chihuweenie", velcro snuggler, shy with men at first. ADOPTED.
 
+## About page — Rosalie's story
+- source: Facebook post titled "Who Is Rosalie?", July 9 6:35 PM, facebook.com/rosalieandfriends — Rosalie's birthday tribute; full text provided verbatim by Chris 2026-07-20 (public feed is login-walled beyond the newest post, so harvested from Chris's paste).
+- Rosalie: the dog depicted on the R&F logo; belonged to the President; born with cerebellar hypoplasia (affected balance + coordination — could not stand or walk); at 2 weeks old the plan was euthanasia; taken in by the President; used a wheelchair; passed not long after the rescue officially became "Rosalie and Friends" in 2023. The rescue is named in her honor.
+- about.html narrative is a light edit of this post (the rescue's own words). No facts added beyond this post + the Org details above. No birth/death years asserted (post says only "would have been her 8th birthday").
+- Photos (added 2026-07-20, from Chris's OneDrive `img` library, optimized to repo pipeline — 900px wide / q82 progressive): main story image `images/rosalie-3.jpg` (front, in her wheelchair); memorial gallery `images/rosalie-{5,1,4,2,6,8}.jpg`; keepsake collage `images/rosalie-about.jpg` (the graphic used for the July 9 FB post). Photo `images/rosalie-7.jpg` (B&W selective-color portrait) placed in the "dog who changed everything" section.
+- Homepage hero replaced 2026-07-20: `images/hero-friends*.jpg` re-generated from Chris's `landing-page-2.png` (three dogs incl. the wheelchair Frenchie), re-cropped 2026-07-20 to 2.5:1 (full dogs, heads intact) after Chris asked to zoom out; hero height opened up via `aspect-ratio: 5/2` on `.hero` in styles.css. index.html markup unchanged (same filenames/widths; alt text still accurate).
+
 ## Known gaps / owner follow-ups
 - No dog is currently labeled "fospice" on Petfinder; fospice page copy stays program-level (no named fospice dog). If the rescue has current fospice dogs not listed, Chris can add them later.
 - Foster JotForm ID unverified; real PayPal link pending; Facebook About donate links not harvested (page requires login for About tab depth) — Venmo handle came from Chris.

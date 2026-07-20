@@ -414,7 +414,9 @@ p { max-width: 65ch; }
 /* Hero */
 .hero {
   position: relative;
-  min-height: 460px;
+  min-height: 420px;
+  aspect-ratio: 5 / 2;
+  max-height: 660px;
   display: flex;
   align-items: center;
   overflow: hidden;
@@ -713,6 +715,37 @@ p { max-width: 65ch; }
   width: 100%;
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-lg);
+}
+
+/* About: reversed story row — photo leads on desktop, text still reads first on mobile */
+@media (min-width: 1024px) {
+  .story-grid--reverse > :first-child { order: 2; }
+}
+
+/* About: Rosalie memorial gallery */
+.photo-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-2);
+}
+@media (min-width: 768px) {
+  .photo-gallery { grid-template-columns: repeat(3, 1fr); gap: var(--space-3); }
+}
+.photo-gallery img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: center 40%;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+.photo-gallery img:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+}
+@media (prefers-reduced-motion: reduce) {
+  .photo-gallery img:hover { transform: none; }
 }
 
 /* Stats Bar */
@@ -1226,7 +1259,7 @@ p { max-width: 65ch; }
 
 /* Hero: shift the framing toward the pit bull on the left so all three
    dogs read; the shorter hero height (see .hero) keeps the crop gentle. */
-.hero__bg { object-position: 30% center; }
+.hero__bg { object-position: 50% 30%; }
 .hero__overlay {
   background: linear-gradient(to right, rgba(44,36,22,0.82) 0%, rgba(44,36,22,0.45) 55%, rgba(44,36,22,0.25) 100%);
 }
@@ -1278,13 +1311,15 @@ p { max-width: 65ch; }
   .hero {
     flex-direction: column;
     min-height: 0;
+    aspect-ratio: auto;
+    max-height: none;
     background: #2C2416;
   }
   .hero__bg {
     position: static;
     width: 100%;
     height: auto;
-    aspect-ratio: 1536 / 449;
+    aspect-ratio: 5 / 2;
     object-fit: cover;
     display: block;
   }
