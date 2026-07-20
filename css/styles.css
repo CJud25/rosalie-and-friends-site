@@ -414,7 +414,7 @@ p { max-width: 65ch; }
 /* Hero */
 .hero {
   position: relative;
-  min-height: 85vh;
+  min-height: 460px;
   display: flex;
   align-items: center;
   overflow: hidden;
@@ -439,7 +439,7 @@ p { max-width: 65ch; }
 .hero__content {
   position: relative;
   z-index: 2;
-  padding-block: var(--space-10);
+  padding-block: var(--space-6);
 }
 
 .hero__heading {
@@ -1224,8 +1224,9 @@ p { max-width: 65ch; }
   border: 2px solid rgba(193, 96, 58, 0.35);
 }
 
-/* Hero: favor Esther and the HOME mat, lift text legibility */
-.hero__bg { object-position: 72% center; }
+/* Hero: shift the framing toward the pit bull on the left so all three
+   dogs read; the shorter hero height (see .hero) keeps the crop gentle. */
+.hero__bg { object-position: 30% center; }
 .hero__overlay {
   background: linear-gradient(to right, rgba(44,36,22,0.82) 0%, rgba(44,36,22,0.45) 55%, rgba(44,36,22,0.25) 100%);
 }
@@ -1270,9 +1271,25 @@ p { max-width: 65ch; }
 .dog-card__body { display: flex; flex-direction: column; flex: 1; }
 .dog-card__body > .btn { margin-top: auto; }
 
-/* Mobile hero: flat top-down scrim so text stays readable across the frame */
+/* Mobile hero: the landing photo is wide, so on phones we stack it as a
+   full banner (no cropping) with the text in a warm band below, instead of
+   cover-cropping to a single dog. */
 @media (max-width: 767px) {
-  .hero__overlay { background: linear-gradient(to bottom, rgba(44,36,22,0.78) 0%, rgba(44,36,22,0.55) 100%); }
+  .hero {
+    flex-direction: column;
+    min-height: 0;
+    background: #2C2416;
+  }
+  .hero__bg {
+    position: static;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1536 / 449;
+    object-fit: cover;
+    display: block;
+  }
+  .hero__overlay { display: none; }
+  .hero__content { padding-block: var(--space-6); width: 100%; }
 }
 
 /* 320px viewports: navbar must not overflow */
