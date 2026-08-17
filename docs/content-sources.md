@@ -94,29 +94,34 @@ Every fact shown on the site traces to one of these sources. Raw harvest archive
 - photo: rukus-1.jpg, rukus-2.jpg
 - facts: Male, 3 months, 14 lbs, Labrador Retriever/Shepherd mix puppy, brindle markings, vaccinated, not yet neutered, NOT yet house-trained (training in progress); loves tug-of-war; sleeps through the night; learning sit/down/leave-it/leash; good with dogs & kids U8. Moved to Happy Tails 2026-08-17 per Chris.
 
-### Hutch
+### Hutch — ADOPTED, see Happy Tails
 - source: petfinder.com/dog/hutch-10506e60-514c-454d-a90c-30dfb9bc1795/fl/milton/rosalie-and-friends-fl1850/details/
 - photo: hutch-1.jpg, hutch-2.jpg
-- facts: Male, puppy, Chihuahua mix, expected adult weight 20–25 lbs, vaccinated; crate-trained, house-training in progress; good with dogs, cats, kids U8; smart, eager to learn, people-oriented. Rescue says NO APARTMENT LIVING (age, energy, love of exploring) — needs an active home with plenty of exercise.
+- facts: Male, puppy, Chihuahua mix, expected adult weight 20–25 lbs, vaccinated; crate-trained, house-training in progress; good with dogs, cats, kids U8; smart, eager to learn, people-oriented. Rescue says NO APARTMENT LIVING (age, energy, love of exploring) — needs an active home with plenty of exercise. Moved to Happy Tails 2026-08-17 per Chris (corrected from an earlier mixup that had Harris here instead — see Harris entry above).
+
+### Harris
+- source: petfinder.com/dog/harris-2cd1efa9-6ec8-40f5-8dd1-68fa82836df2/fl/milton/rosalie-and-friends-fl1850/details/ (URL provided by Chris 2026-08-17, not independently re-verified); write-up text provided directly by Chris 2026-08-17, used near-verbatim (condensed for card length)
+- photo: harris-1.jpg (provided by Chris 2026-08-17)
+- facts: Male, ~9 weeks, ~7 lbs, Staffordshire Terrier/possible Boxer mix ("Rambo" to his foster family), bowed back legs/"cowboy walk". Dog-, cat-, and kid-friendly; crate/playpen-trained, ringing his bell to go out ~80% of the time; playful but settles down, handles 3–4 hours alone with no separation anxiety, doesn't require a canine housemate but would enjoy one. Needs a fenced yard and a family ready for puppy training.
 
 ### Toofers (Tootie) — SENIOR
 - source: petfinder.com/dog/toofers-0a3352ba-7403-4e28-bd4c-6f92d260688e/fl/milton/rosalie-and-friends-fl1850/details/
 - photo: toofers-1.jpg, toofers-2.jpg
 - facts: Male, ~10 years, 8 lbs, Chihuahua/Pekingese, neutered, vaccinated, MOSTLY potty-trained ("just don't make an old man wait too long"). Restrictions per rescue: NO CATS; NO LARGE DOGS ("absolutely not") — prefers to be an only dog, may tolerate one calm respectful small dog; has gone after chickens/livestock. Chatty ("narrates his day"), loves blanket burrows, treats, pup cups, stroller rides, lap warming. NOTE: senior adoptable — NOT labeled fospice by the rescue; do not tag him fospice on the site.
 
-## Recently adopted — Happy Tails (10)
+## Recently adopted — Happy Tails (6 shown on site as of 2026-08-17)
 All: petfinder member page "recently adopted" section, seen 2026-07-17, unless noted. Use ONLY as celebration/social proof, never as adoptable.
-- **Christopher Robin** (photo christopher-robin-1.jpg) — young Lab, sponsored fee, kennel/house-trained. ADOPTED.
-- **Cashew** (cashew-1.jpg) — Chihuahua mix, one eye, "never met a stranger". ADOPTED.
-- **Wasabi** (wasabi-1.jpg) — 2-yr Chihuahua mix, abandoned at Bayview Park, "teacup black Lab" look. ADOPTED.
-- **Snowbelle** (snowbelle-1.jpg) — 2-yr "Chihuweenie", velcro snuggler, shy with men at first. ADOPTED.
-- **Ernie** (ernie-4.jpg) — 1-yr American Bully, sponsored fee, foster fail. ADOPTED.
-- **Esther** (esther-3.jpg) — 8-yr Boxer/Bully mix, starvation survivor. Moved from adoptable roster 2026-08-17 per Chris. ADOPTED.
-- **Blue Bell** (blue-bell-4.jpg) — 8-mo Retriever/Shar-Pei mix. Moved from adoptable roster 2026-08-17 per Chris. ADOPTED.
-- **Violet** (violet-1.jpg) — 1-yr Cairn Terrier. Moved from adoptable roster 2026-08-17 per Chris. ADOPTED.
-- **Penelope** (penelope-1.jpg) — 2.5-yr Rat Terrier mix, hoarding survivor. Moved from adoptable roster 2026-08-17 per Chris. ADOPTED.
-- **Rukus** (rukus-3.jpg) — 3-mo Lab/Shepherd mix puppy. Moved from adoptable roster 2026-08-17 per Chris. ADOPTED.
-- **Harris** (harris-1.jpg) — ~9-wk Staffordshire Terrier/possible Boxer mix puppy ("Rambo" to his foster family). Never listed as adoptable on the site; write-up + photo provided directly by Chris 2026-08-17. ADOPTED.
+- **Christopher Robin** (photo christopher-robin-1.jpg) — young Lab, sponsored fee, kennel/house-trained. ADOPTED. Never actually added to the live Happy Tails grid (harvest-only record).
+- **Cashew** (cashew-1.jpg) — Chihuahua mix, one eye, "never met a stranger". ADOPTED. Removed from the live Happy Tails grid by Chris 2026-08-17 (kept here for history/photo record).
+- **Wasabi** (wasabi-1.jpg) — 2-yr Chihuahua mix, abandoned at Bayview Park, "teacup black Lab" look. ADOPTED. Removed from the live Happy Tails grid by Chris 2026-08-17 (kept here for history/photo record).
+- **Snowbelle** (snowbelle-1.jpg) — 2-yr "Chihuweenie", velcro snuggler, shy with men at first. ADOPTED. Removed from the live Happy Tails grid by Chris 2026-08-17 (kept here for history/photo record).
+- **Ernie** (ernie-4.jpg) — 1-yr American Bully, sponsored fee, foster fail. ADOPTED. Removed from the live Happy Tails grid by Chris 2026-08-17 (kept here for history/photo record).
+- **Esther** (esther-3.jpg) — 8-yr Boxer/Bully mix, starvation survivor. Moved from adoptable roster 2026-08-17 per Chris. ADOPTED. On live grid.
+- **Blue Bell** (blue-bell-4.jpg) — 8-mo Retriever/Shar-Pei mix. Moved from adoptable roster 2026-08-17 per Chris. ADOPTED. On live grid.
+- **Violet** (violet-1.jpg) — 1-yr Cairn Terrier. Moved from adoptable roster 2026-08-17 per Chris. ADOPTED. On live grid.
+- **Penelope** (penelope-1.jpg) — 2.5-yr Rat Terrier mix, hoarding survivor. Moved from adoptable roster 2026-08-17 per Chris. ADOPTED. On live grid.
+- **Rukus** (rukus-3.jpg) — 3-mo Lab/Shepherd mix puppy. Moved from adoptable roster 2026-08-17 per Chris. ADOPTED. On live grid.
+- **Hutch** (hutch-1.jpg) — Chihuahua mix puppy, expected 20&ndash;25 lbs adult. Moved from adoptable roster 2026-08-17 per Chris. ADOPTED. On live grid (corrected from an earlier mixup that had Harris here instead — Harris is adoptable, not adopted).
 
 ## About page — Rosalie's story
 - source: Facebook post titled "Who Is Rosalie?", July 9 6:35 PM, facebook.com/rosalieandfriends — Rosalie's birthday tribute; full text provided verbatim by Chris 2026-07-20 (public feed is login-walled beyond the newest post, so harvested from Chris's paste).
