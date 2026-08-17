@@ -27,12 +27,22 @@ Every fact shown on the site traces to one of these sources. Raw harvest archive
 - Volunteer status (Petfinder listing text, verbatim): "We are a 100% volunteer organization and have to work other jobs to pay the bills. Please give us up to 48 hours to respond."
 - Application terms (Petfinder listing text, verbatim): "Submission of an adoption application does not obligate you to adopt nor does it guarantee approval."
 
-## Adoptable dogs (12) — all sourced from each dog's Petfinder detail page, seen 2026-07-17
+## Adoptable dogs (9) — roster updated 2026-08-17; see per-dog source below
 
-### Esther
+### Myla
+- source: petfinder.com/dog/myla-b6009a67-b37a-4001-bd42-57dc1e5d6b25/fl/milton/rosalie-and-friends-fl1850/details/ (URL provided by Chris 2026-08-17, not independently re-verified); write-up text provided directly by Chris 2026-08-17, used near-verbatim (condensed for card length)
+- photo: myla-1.jpg, myla-2.jpg (provided by Chris 2026-08-17)
+- facts: Female (per write-up pronouns), 1.5 years, 9 lbs, Chihuahua mix, crate- and potty-trained. Territorial/protective, needs an experienced owner, a multi-dog or multi-person household, and another friendly dog to help her confidence; NOT good with young children; needs a quiet space when guests visit.
+
+### Gromit
+- source: write-up + photos provided directly by Chris 2026-08-17; not yet listed on Petfinder
+- photo: gromit-1.jpg, gromit-2.jpg (provided by Chris 2026-08-17)
+- facts: Male (per write-up pronouns), 9 weeks, 5 lbs (expected adult weight 18–25 lbs), mixed breed ("not quite sure what mix" — Rescue's words; Mini Aussie-looking coat/build, one eye). Good with dogs, older foster kids; not yet noted with cats. Potty-training in progress with regular breaks; not a fan of the crate but sleeps well in a puppy playpen; learning leash manners and sharing.
+
+### Esther — ADOPTED, see Happy Tails
 - source: petfinder.com/dog/esther-0752916c-0354-4a71-bade-fcdf9a2d462d/fl/milton/rosalie-and-friends-fl1850/details/
 - photo: esther-1.jpg, esther-2.jpg
-- facts: Female, 8 years, Boxer/Bully mix, 40 lbs, spayed, vaccinated, house-trained; good with dogs & kids under 8; NOT cats. Survived severe starvation; "gentle, peaceful nature." **Adoption fee sponsored (The Mathes).**
+- facts: Female, 8 years, Boxer/Bully mix, 40 lbs, spayed, vaccinated, house-trained; good with dogs & kids under 8; NOT cats. Survived severe starvation; "gentle, peaceful nature." **Adoption fee sponsored (The Mathes).** Moved to Happy Tails 2026-08-17 per Chris.
 
 ### Ernie
 - source: petfinder.com/dog/ernie-1667bbfa-2396-4d25-abbd-e1583e6c9bae/fl/milton/rosalie-and-friends-fl1850/details/
@@ -49,10 +59,15 @@ Every fact shown on the site traces to one of these sources. Raw harvest archive
 - photo: storm-1.jpg, storm-2.jpg
 - facts: Female, 1.5 years (desc), Shepherd/Lab mix, spayed, vaccinated, house-trained, uses doggy door; shy-then-sweet; best with medium/large dog friends; NO cats or birds; fenced yard recommended; treat-motivated.
 
-### Blue Bell
+### Blue Bell — ADOPTED, see Happy Tails
 - source: petfinder.com/dog/blue-bell-df018e3b-0707-42df-a46b-03b6ce9675a6/fl/milton/rosalie-and-friends-fl1850/details/
 - photo: blue-bell-1.jpg, blue-bell-2.jpg
-- facts: Female, 8 months, 30 lbs, Retriever/Shar-Pei mix, wavy blue-and-white coat, spayed, vaccinated, crate-trained; good with dogs, cats, kids. Playful greeter, "tap dance" hello.
+- facts: Female, 8 months, 30 lbs, Retriever/Shar-Pei mix, wavy blue-and-white coat, spayed, vaccinated, crate-trained; good with dogs, cats, kids. Playful greeter, "tap dance" hello. Moved to Happy Tails 2026-08-17 per Chris.
+
+### Violet — ADOPTED, see Happy Tails
+- source: gap in original harvest (not recorded when added to site); facts below reconstructed from live dogs.html card text as of 2026-08-17
+- photo: violet-1.jpg, violet-2.jpg
+- facts: Female, 1 year, ~10 lbs, Cairn Terrier, playful, affectionate, food-motivated; building confidence, progressing on leash/potty training; good with dogs & cats; older kids best; wanted a fenced yard. Moved to Happy Tails 2026-08-17 per Chris.
 
 ### Noodles
 - source: petfinder.com/dog/noodles-6c44b260-410c-4ef2-96c6-f55a5aab6a32/fl/milton/rosalie-and-friends-fl1850/details/
@@ -69,15 +84,15 @@ Every fact shown on the site traces to one of these sources. Raw harvest archive
 - photo: portia-1.jpg, portia-2.jpg
 - facts: Female, 9 months, 31 lbs, bully mix, spayed, vaccinated; loves outdoor play, car rides, toys, blanket-burrowing; survived severe abuse, "has chosen joy anyway"; good with dogs; rescue says BEST WITH OLDER KIDS; wants active family with FENCED YARD; mostly potty-trained, crate- and leash-trained. **Sponsored adoption fee.**
 
-### Penelope
+### Penelope — ADOPTED, see Happy Tails
 - source: petfinder.com/dog/penelope-8c53520c-4897-42e9-ba5b-69ce497c7ac7/fl/milton/rosalie-and-friends-fl1850/details/
 - photo: penelope-1.jpg, penelope-2.jpg
-- facts: Female, 2.5 years, 13 lbs, Rat Terrier mix, spayed, vaccinated, house-trained; good with dogs & cats. Rescue says OLDER KIDS BEST ("toddlers can be a bit scary and unpredictable to her"). Rescued from severe hoarding/neglect, arrived emaciated + heartworm-positive; treatment COMPLETE, fully vetted; needs patient understanding home.
+- facts: Female, 2.5 years, 13 lbs, Rat Terrier mix, spayed, vaccinated, house-trained; good with dogs & cats. Rescue says OLDER KIDS BEST ("toddlers can be a bit scary and unpredictable to her"). Rescued from severe hoarding/neglect, arrived emaciated + heartworm-positive; treatment COMPLETE, fully vetted; needs patient understanding home. Moved to Happy Tails 2026-08-17 per Chris.
 
-### Rukus
+### Rukus — ADOPTED, see Happy Tails
 - source: petfinder.com/dog/rukus-33919e74-04cd-4369-9d25-3b53f6d0020c/fl/milton/rosalie-and-friends-fl1850/details/
 - photo: rukus-1.jpg, rukus-2.jpg
-- facts: Male, 3 months, 14 lbs, Labrador Retriever/Shepherd mix puppy, brindle markings, vaccinated, not yet neutered, NOT yet house-trained (training in progress); loves tug-of-war; sleeps through the night; learning sit/down/leave-it/leash; good with dogs & kids U8.
+- facts: Male, 3 months, 14 lbs, Labrador Retriever/Shepherd mix puppy, brindle markings, vaccinated, not yet neutered, NOT yet house-trained (training in progress); loves tug-of-war; sleeps through the night; learning sit/down/leave-it/leash; good with dogs & kids U8. Moved to Happy Tails 2026-08-17 per Chris.
 
 ### Hutch
 - source: petfinder.com/dog/hutch-10506e60-514c-454d-a90c-30dfb9bc1795/fl/milton/rosalie-and-friends-fl1850/details/
@@ -89,12 +104,19 @@ Every fact shown on the site traces to one of these sources. Raw harvest archive
 - photo: toofers-1.jpg, toofers-2.jpg
 - facts: Male, ~10 years, 8 lbs, Chihuahua/Pekingese, neutered, vaccinated, MOSTLY potty-trained ("just don't make an old man wait too long"). Restrictions per rescue: NO CATS; NO LARGE DOGS ("absolutely not") — prefers to be an only dog, may tolerate one calm respectful small dog; has gone after chickens/livestock. Chatty ("narrates his day"), loves blanket burrows, treats, pup cups, stroller rides, lap warming. NOTE: senior adoptable — NOT labeled fospice by the rescue; do not tag him fospice on the site.
 
-## Recently adopted — Happy Tails (4)
-All: petfinder member page "recently adopted" section, seen 2026-07-17. Use ONLY as celebration/social proof, never as adoptable.
+## Recently adopted — Happy Tails (10)
+All: petfinder member page "recently adopted" section, seen 2026-07-17, unless noted. Use ONLY as celebration/social proof, never as adoptable.
 - **Christopher Robin** (photo christopher-robin-1.jpg) — young Lab, sponsored fee, kennel/house-trained. ADOPTED.
 - **Cashew** (cashew-1.jpg) — Chihuahua mix, one eye, "never met a stranger". ADOPTED.
 - **Wasabi** (wasabi-1.jpg) — 2-yr Chihuahua mix, abandoned at Bayview Park, "teacup black Lab" look. ADOPTED.
 - **Snowbelle** (snowbelle-1.jpg) — 2-yr "Chihuweenie", velcro snuggler, shy with men at first. ADOPTED.
+- **Ernie** (ernie-4.jpg) — 1-yr American Bully, sponsored fee, foster fail. ADOPTED.
+- **Esther** (esther-3.jpg) — 8-yr Boxer/Bully mix, starvation survivor. Moved from adoptable roster 2026-08-17 per Chris. ADOPTED.
+- **Blue Bell** (blue-bell-4.jpg) — 8-mo Retriever/Shar-Pei mix. Moved from adoptable roster 2026-08-17 per Chris. ADOPTED.
+- **Violet** (violet-1.jpg) — 1-yr Cairn Terrier. Moved from adoptable roster 2026-08-17 per Chris. ADOPTED.
+- **Penelope** (penelope-1.jpg) — 2.5-yr Rat Terrier mix, hoarding survivor. Moved from adoptable roster 2026-08-17 per Chris. ADOPTED.
+- **Rukus** (rukus-3.jpg) — 3-mo Lab/Shepherd mix puppy. Moved from adoptable roster 2026-08-17 per Chris. ADOPTED.
+- **Harris** (harris-1.jpg) — ~9-wk Staffordshire Terrier/possible Boxer mix puppy ("Rambo" to his foster family). Never listed as adoptable on the site; write-up + photo provided directly by Chris 2026-08-17. ADOPTED.
 
 ## About page — Rosalie's story
 - source: Facebook post titled "Who Is Rosalie?", July 9 6:35 PM, facebook.com/rosalieandfriends — Rosalie's birthday tribute; full text provided verbatim by Chris 2026-07-20 (public feed is login-walled beyond the newest post, so harvested from Chris's paste).
